@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Selectors</title>
+        <link rel="icon" href="CSS3_logo.jpg">
+        <style>
+            p {
+                text-align: center;
+                color: brown;
+            }
+            #para1 {
+                color: darkblue;
+                text-align: left;
+            }
+            #para2 {
+                text-align: center;
+                color: purple;
+            }
+            .cls1 {
+                font-family: 'Courier New', Courier, monospace;
+                font-size:x-large;
+            }
+            h3.cls {
+                font-style:italic;
+            }
+            *{
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS Selectors</h1>
+        </header>
+        <hr>
+
+        <h3>Categories of CSS : </h3>
+        <ul>
+            <li>Simple Selector </li>
+            <li>Combinator Selector</li>
+            <li>Pseudo-class Selector</li>
+            <li>Pseudo-elements Selector</li>
+            <li>Attribute Selector</li>
+        </ul>
+        <hr>
+
+        <h3>CSS Element Selector : </h3>
+        <p>The element selector selects HTML elements based on the element name</p>
+        <p>This style selctor is also affect this paraghraph</p>
+        <p>And also this.</p>
+        <hr>
+
+        <h3>CSS ID selector : </h3>
+        <p id="para1">Hello World !!!</p>
+        <p id="para2">This paragraph is affected by CSS ID selector</p>
+        <hr>
+
+        <h3 class="cls cls1">CSS Class Selector : </h3>
+        <p class="cls1">Hello World !</p>
+        <p class="cls1">This paragraph is styled by CSS class selector</p>
+        <hr>
+
+        <h3>CSS Universal Selector : </h3>
+        <p class="cls1">CSS universal selector is select all the body elements and affect all.</p>
+
+
+    </body>
+</html>
