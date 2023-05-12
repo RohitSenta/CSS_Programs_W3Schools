@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How To Add CSS</title>
+        <link rel="shortcut icon" href="/CSS/CSS3_logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="ExternalCSS.css">
+        <style>
+            .sec {
+                padding: 20px;
+                margin: 10px;            }
+            #intcss {
+                font-style: italic;
+            }
+            .in {
+                background-color: rgb(177, 218, 251);
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid black;
+            }
+            .Int {
+                color: brown;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>How To add CSS</h1>
+        </header>
+        <hr>
+
+        <main>
+            <section>
+                <h3>Three Way to Add CSS</h3>
+                <ul>
+                    <li>External CSS</li>
+                    <li>Internal CSS</li>
+                    <li>Inline CSS</li>
+                </ul>
+            </section>
+            <hr>
+
+            <section class="abc">
+                <h3>>External CSS</h3>
+
+                <div>Hello World !</div>
+                <div class="ext">This section elements are styled by External CSS file that linked in head section of this program.</div>
+                <span>Hello World - This is a span element</span>
+            </section>
+            <hr>
+
+            <section class="sec">
+                <h3 id="intcss">>Internal CSS</h3>
+
+                <p class="in">Hello World !</p>
+                <p class="Int in">This section element is styled by Internal CSS that is given in style element inside head element.</p>
+            </section>
+            <hr>
+
+            <section style="border: 2px inset black; padding: 15px; margin: 20px;">
+                <h3 style="color:rgb(44, 11, 255)">>Inline CSS</h3>
+
+                <p style="color:rgb(219, 189, 255); background-color: rgb(121, 71, 0);">Hello World !</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: brown; font-style: italic;">This section element is styled by In-line CSS style</p>
+            </section>
+        </main>
+    </body>
+</html>
