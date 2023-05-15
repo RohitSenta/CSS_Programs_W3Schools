@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Borders</title>
+        <link rel="shortcut icon" href="CSS/CSS3_logo.jpg" type="image/x-icon">
+        <style>
+            body{
+                border: 5px inset rgb(59, 46, 46);
+                margin: 30px;
+                padding: 30px;
+            }
+            p.Dotted {border-style: dotted; padding: 10px; border-width: 5px;}
+            p.Dashed {border-style: dashed; padding: 10px; border-width: 5px;}
+            p.Solid {border-style: solid; padding: 10px; border-width: 5px;}
+            p.Double {border-style: double; padding: 10px; border-width: 5px;}
+            p.Groove {border-style: groove; padding: 10px; border-width: 5px;}
+            p.Rigde {border-style: ridge; padding: 10px; border-width: 5px;}
+            p.Inset {border-style: inset; padding: 10px; border-width: 5px;}
+            p.Outset {border-style: outset; padding: 10px; border-width: 5px;}
+            p.None {border-style: none; padding: 10px; border-width: 5px;}
+            p.Hidden {border-style: hidden; padding: 10px; border-width: 5px;}
+
+            p.one{
+                border-style: solid;
+                border-width: 5px;
+                padding: 10px;
+            }
+            p.two{
+                border-style: solid;
+                border-width: 5px 20px;
+                padding: 10px;
+            }
+            p.three{
+                border-style: solid;
+                border-width: 5px 15px 25px;
+                padding: 10px;
+            }
+            p.four{
+                border-style: solid;
+                border-width: 5px 15px 25px 35px;
+                padding: 10px;
+            }
+
+            p.color1{
+                border-style: solid;
+                border-color: red;
+                padding: 10px;
+            }
+            p.color2{
+                border-style: solid;
+                border-color: green;
+                padding: 10px;
+            }
+            p.color3{
+                border-style: solid;
+                border-color: blue;
+                padding: 10px;
+            }
+            p.color4{
+                border-style: solid;
+                border-color: lightcoral darkblue lightgreen darkviolet;
+                padding: 10px;
+            }
+
+            p.HEX1 {
+                border-style: solid;
+                border-color: #a8a8f6;
+                padding: 10px;
+            }
+            p.HEX2 {
+                border-style: solid;
+                border-color: #f78a41;
+                padding: 10px;
+            }
+            p.HEX3 {
+                border-style: solid;
+                border-color: #578f3a;
+                padding: 10px;
+            }
+            p.HEX4 {
+                border-style: solid;
+                border-color: #b98686;
+                padding: 10px;
+            }
+
+            p.RGB1 {
+                border-style: solid;
+                border-color: rgb(143, 61, 61);
+                padding: 10px;
+            }
+            p.RGB2 {
+                border-style: solid;
+                border-color: #4536b9;
+                padding: 10px;
+            }
+            p.RGB3 {
+                border-style: solid;
+                border-color: #cf5c9d;
+                padding: 10px;
+            }
+            p.RGB4 {
+                border-style: solid;
+                border-color: #a34400;
+                padding: 10px;
+            }
+
+            p.HSL1 {
+                border-style: solid;
+                border-color: #a5da86;
+                padding: 10px;
+            }
+            p.HSL2 {
+                border-style: solid;
+                border-color: hsl(24, 26%, 56%);
+                padding: 10px;
+            }
+            p.HSL3 {
+                border-style: solid;
+                border-color: #b768c5;
+                padding: 10px;
+            }
+            p.HSL4 {
+                border-style: solid;
+                border-color: #2d53b6;
+                padding: 10px;
+            }
+
+            p.side1 {
+                border-style: solid;
+                border-color: #000000;
+                padding: 10px;
+            }
+            p.side2 {
+                border-style: dashed solid;
+                border-color: #000000;
+                padding: 10px;
+            }
+            p.side3 {
+                border-style: double dotted groove;
+                border-color: #000000;
+                padding: 10px;
+            }
+            p.side4 {
+                border-style: dotted double dashed inset;
+                border-color: #000000;
+                padding: 10px;
+            }
+
+            p.round1 {
+                border: 2px solid black;
+                border-radius: 0px;
+                padding: 10px;
+            }
+            p.round2 {
+                border: 2px solid red;
+                border-radius: 5px;
+                padding: 10px;
+            }
+            p.round3 {
+                border: 2px solid green;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            p.round4 {
+                border: 2px solid blue;
+                border-radius: 15px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Borders</h1>
+        </header>
+        <hr><hr><br>      
+
+        <main>
+            <section style="border: 3px solid black; padding: 20px;">
+                <h3 style="font-size: 25px;">CSS - Border-Style and Border-Width</h3>
+                
+                <p class="Dotted"><b>Hello World! - Dotted Border</b></p>
+                <p class="Dashed"><b>Hello World! - Dashed Border</b></p>
+                <p class="Solid"><b>Hello World! - Solid Border</b></p>
+                <p class="Double"><b>Hello World! - Double Border</b></p>
+                <p class="Groove"><b>Hello World! - Groove Border</b></p>
+                <p class="Rigde"><b>Hello World! - Rigde Border</b></p>
+                <p class="Inset"><b>Hello World! - Inset Border</b></p>
+                <p class="Outset"><b>Hello World! - Outset Border</b></p>
+                <p class="None"><b>Hello World! - None Border</b></p>
+                <p class="Hidden"><b>Hello World! - Hidden Border</b></p>
+            </section>
+            <br><hr><br>
+
+            <section style="border: 3px solid black; padding: 20px;">
+                <h3 style="font-size: 25px;">CSS - Border Specific Side Width</h3>
+                <p>The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):</p>
+
+                <p class="one"><b>Hello World! - All Side Equal Border</b></p>
+                <p class="two"><b>Hello World! - Two(Top-Bottom/Rigth-Left) Size Border</b></p>
+                <p class="three"><b>Hello World! - Three(Top/Left-Right/Bottom) Size Border</b></p>
+                <p class="four"><b>Hello World! - Four(Top/Right/Bottom/Left) Size Border</b></p>
+            </section>
+            <br><hr><br>
+            
+            <section style="border: 3px solid black; padding: 20px;">
+                <h3 style="font-size: 25px;">CSS - Border Color</h3>
+                <hr><hr>
+
+                <div>
+                    <p><b>Border Color - By Color Name:</b></p>
+                    <p class="color1"><b>Hello World! - By Color Name(Red)</b></p>
+                    <p class="color2"><b>Hello World! - By Color Name(Green)</b></p>
+                    <p class="color3"><b>Hello World! - By Color Name(Blue)</b></p>
+                    <p class="color4"><b>Hello World! - By Color Name - Specific Side Colors</b></p>
+                </div>    
+                <br><hr><hr><br>
+                <div>
+                    <p><b>Border Color - By HEX Value (Hexadecimal):</b></p>
+                    <p class="HEX1"><b>Hello World! - By HEX Value (Hexadecimal)</b></p>
+                    <p class="HEX2"><b>Hello World! - By HEX Value (Hexadecimal)</b></p>
+                    <p class="HEX3"><b>Hello World! - By HEX Value (Hexadecimal)</b></p>
+                    <p class="HEX4"><b>Hello World! - By HEX Value (Hexadecimal) - Specific Side Colors</b></p>
+                </div>
+                <br><hr><hr><br>
+                <div>
+                    <p><b>Border Color - By RGB Value:</b></p>
+                    <p class="RGB1"><b>Hello World! - By RGB Value</b></p>
+                    <p class="RGB2"><b>Hello World! - By RGB Value</b></p>
+                    <p class="RGB3"><b>Hello World! - By RGB Value</b></p>
+                    <p class="RGB4"><b>Hello World! - By RGB Value - Specific Side Colors</b></p>
+                </div>
+                <br><hr><hr><br>
+                <div>
+                    <p><b>Border Color - By HSL Value:</b></p>
+                    <p class="HSL1"><b>Hello World! - By HSL Value</b></p>
+                    <p class="HSL2"><b>Hello World! - By HSL Value</b></p>
+                    <p class="HSL3"><b>Hello World! - By HSL Value</b></p>
+                    <p class="HSL4"><b>Hello World! - By HSL Value - Specific Side Colors</b></p>
+                </div>
+                <br><hr><hr><br>
+            </section>
+            
+
+            <section style="border: 3px solid black; padding: 20px;">
+                <h3 style="font-size: 25px;">CSS - Border Sides</h3>
+                <p>In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left): </p>
+
+                <p class="side1"><b>Hello World! - All Border Are Solid</b></p>
+                <p class="side2"><b>Hello World! - top-bottom-dashed / right-left-solid</b></p>
+                <p class="side3"><b>Hello World! - top-double / right-left-dotted / bottom-groove</b></p>
+                <p class="side4"><b>Hello World! - top-dotted / right-double / bottom-dashed / left-inset</b></p>
+            </section>
+            <br><hr><br>
+
+            <section style="border: 3px solid black; padding: 20px;">
+                <h3 style="font-size: 25px;">CSS - Round Borders / Border-Radius Property</h3>
+
+                <p class="round1"><b>Hello World! - Normal Border - No-Round</b></p>
+                <p class="round2"><b>Hello World! - Round Border - 5px radius</b></p>
+                <p class="round3"><b>Hello World! - Round Border - 10px radius</b></p>
+                <p class="round4"><b>Hello World! - Round Border - 15px radius</b></p>
+            </section>
+            <br><hr><hr>
+
+            <section>
+                <h2>CSS - All Properties of Border Completed</h2>
+            </section>
+            <hr><hr>
+
+        </main>
+    </body>
+</html>

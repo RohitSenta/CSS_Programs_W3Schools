@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS -  Margine</title>
+        <link rel="shortcut icon" href="CSS/CSS3_logo.jpg" type="image/x-icon">
+        <style>
+            body {
+                border: 5px outset brown;
+                margin: 30px;
+                padding: 30px;
+            }
+
+            .mrg1 {
+                border: 2px solid black;
+                background-color: rgb(152, 180, 233);
+            }
+            .mrg2 {
+                border: 2px solid black;    
+                margin-top: 10px;
+                background-color: rgb(152, 180, 233);
+            }
+            .mrg3 {
+                border: 2px solid black;
+                margin-top: 30px;
+                margin-left: 30px;
+                background-color: rgb(152, 180, 233);
+            }
+            .mrg4 {
+                border: 2px solid black;
+                margin-top: 50px;
+                margin-left: 50px;
+                margin-bottom: 50px ;
+                background-color: rgb(152, 180, 233);
+            }
+            .mrg5 {
+                border: 2px solid black;
+                margin-top: 80px;
+                margin-left: 80px;
+                margin-bottom: 80px;
+                margin-right: 80px;
+                background-color: rgb(152, 180, 233);
+            }
+
+            .short {
+                border: 2px solid black;
+                background-color: rgb(91, 160, 91);
+                margin: 30px 50px 80px 100px; 
+            }
+
+            .srt1 {
+                border: 2px solid black;
+                margin: 10px ;
+                background-color: rgb(238, 203, 138);
+            }
+            .srt2 {
+                border: 2px solid black;
+                margin: 20px 30px;
+                background-color: rgb(238, 203, 138);
+            }
+            .srt3 {
+                border: 2px solid black;
+                margin: 40px 50px 60px;
+                background-color: rgb(238, 203, 138);
+            }
+            .srt4 {
+                border: 2px solid black;
+                margin: 50px 60px 70px 80px;
+                background-color: rgb(238, 203, 138);
+            }
+
+            .auto {
+                border: 2px solid black;
+                margin: auto;
+                width: 1000px;
+                background-color: rgb(203, 156, 248);
+            }
+
+            .inhrt1 {
+                margin: 50px;
+            }
+            .inhrt2 {
+                border: 2px solid black;
+                margin: inherit;
+                background-color: rgb(231, 152, 138);
+            }
+
+            .clps1 {
+                border: 2px solid black;
+                margin: 0 0 50px 0;
+                background-color: rgb(221, 255, 209);
+            }
+            .clps2 {
+                border: 2px solid black;
+                margin: 30px 0 0 0;
+                background-color: rgb(174, 182, 213);
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Margine</h1>
+        </header>    
+        <hr><hr>
+
+        <main>
+            <section>
+                <h3>CSS - Margine - Individual Sides</h3>
+
+                <p class="mrg1"><b>Hello World! - All side without margine</b></p>
+                <p class="mrg2"><b>Hello World! - top - side margine</b></p>
+                <p class="mrg3"><b>Hello World! - top/left - side equal margine</b></p>
+                <p class="mrg4"><b>Hello World! - top/left/bottom - side margine</b></p>
+                <p class="mrg5"><b>Hello World! - top/left/bottom/right - side margine</b></p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Margine - Shorthand Property</h3>
+
+                <p class="short"><b>Hello World! - All Side Margine Using Shorthand Property</b></p>
+                <p class="short"><b>Hello World! - All Side Margine Using Shorthand Property</b></p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Margine - Shorthand Property for all sides</h3>
+
+                <p class="srt1"><b>Hello World! - top - side margine</b></p>
+                <p class="srt2"><b>Hello World! - top/left - side equal margine</b></p>
+                <p class="srt3"><b>Hello World! - top/left/bottom - side margine</b></p>
+                <p class="srt4"><b>Hello World! - top/left/bottom/right - side margine</b></p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Margine - Auto value</h3>
+
+                <p class="auto"><b>Hello World! - Auto Margine</b></p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Margine - Inharite Value</h3>
+
+                <div class="inhrt1">
+                    <p class="inhrt2"><b>Hello World! - Inharite Value</b></p>
+                </div>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Margine - Collapse</h3>
+
+                <p class="clps1"><b>Hello World! - Margine Collapse</b></p>
+                <p class="clps2"><b>Hello World! - Margine Collapse</b></p>
+            </section>
+            <br><hr><hr>
+
+            <section>
+                <h2>CSS - Margine Properties Completed</h2>
+            </section>
+            <hr><hr>
+        </main>
+    </body>
+</html>
