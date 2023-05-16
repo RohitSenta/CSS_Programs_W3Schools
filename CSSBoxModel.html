@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Box Model</title>
+        <link rel="shortcut icon" href="CSS/CSS3_logo.jpg" type="image/x-icon">
+        <style>
+            body{
+                border: 5px groove darkblue;
+                margin: 20px;
+                padding: 30px;
+            }
+            .box1{
+                border: 5px solid black;
+                padding: 20px;
+                margin: 20px;
+                width: 500px;
+                background-color: rgb(177, 204, 255);
+            }
+            .box2{
+                width: 350px;
+                margin: 10px;
+                border: 5px solid black;
+                padding: 20px;
+                margin: 20px;
+                background-color: rgb(177, 204, 255);
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Box Model</h1>
+        </header>
+        <hr><hr>
+
+        <main>
+            <section>
+                <h3>CSS - Box Model Details</h3>
+                <p class="box1">
+                    <b>
+                        Content - The content of the box, where text and images appear <br>
+                        Padding - Clears an area around the content. The padding is transparent <br>
+                        Border - A border that goes around the padding and content <br>
+                        Margin - Clears an area outside the border. The margin is transparent <br>
+                    </b>
+                </p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Box Model Details With Image</h3>
+
+                <img src="/backtree.jpg" alt="Tree" width="500px">
+                <p class="box2">
+                    The picture above is 500px wide. <br>
+                    The total width of this paragraph box is = <br>
+                    350px (width) +
+                    20px (left + right margine) +
+                    10px (left + right border) +
+                    40px (left + right padding)   
+                    = Total 420px wide 
+                </p>
+            </section>
+            <hr><hr>
+
+            <section>
+                <h2>CSS - Box Model Completed</h2>
+            </section>
+            <hr><hr>
+        </main>
+    </body>
+</html>

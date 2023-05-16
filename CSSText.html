@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Text</title>
+        <link rel="shortcut icon" href="CSS/CSS3_logo.jpg" type="image/x-icon">
+        <style>
+            body {
+                border: 5px ridge rgb(136, 62, 62);
+                margin: 20px;
+                padding: 30px;
+            }
+
+            .text1{
+                color: blue;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 10px;
+            }
+            .text2{
+                color: purple;
+                background-color: lightskyblue;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 10px;
+            }
+
+            .allin1{
+                color: rgb(0, 80, 200);
+                background-color: rgb(255, 215, 188);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+            }
+            .allin2{
+                color: rgb(0, 80, 200);
+                background-color: rgb(255, 215, 188);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                text-align: left;
+            }
+            .allin3{
+                color: rgb(0, 80, 200);
+                background-color: rgb(255, 215, 188);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                text-align: center;
+            }
+            .allin4{
+                color: rgb(0, 80, 200);
+                background-color: rgb(255, 215, 188);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                text-align: right;
+            }
+            .allin5{
+                color: rgb(0, 80, 200);
+                background-color: rgb(255, 215, 188);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                width: 1500px;
+                height: 50px;
+                text-align: justify;
+            }
+            
+            .dir1{
+                color: brown;
+                background-color: rgb(184, 221, 255);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                direction: ltr;
+                unicode-bidi: bidi-override;
+            }
+            .dir2{
+                color: brown;
+                background-color: rgb(184, 221, 255);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                direction: rtl;
+                unicode-bidi: bidi-override;
+            }
+
+            .vdir1{
+                color: rgb(0, 53, 137);
+                background-color: rgb(184, 255, 192);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+            }
+            .vdir2{
+                color: rgb(0, 53, 137);
+                background-color: rgb(184, 255, 192);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+            }
+            .vdir3{
+                color: rgb(0, 53, 137);
+                background-color: rgb(184, 255, 192);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+            }
+            .vdir4{
+                color: rgb(0, 53, 137);
+                background-color: rgb(184, 255, 192);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+            }
+            .vdir5{
+                color: rgb(0, 53, 137);
+                background-color: rgb(184, 255, 192);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+            }
+            
+            .a{
+                vertical-align: middle;
+            }
+            .b{
+                vertical-align: text-top;
+            }
+            .c{
+                vertical-align: text-bottom;
+            }
+            .d{
+                vertical-align: sub;
+            }
+            .e{
+                vertical-align: super;
+            }
+            
+            .deco1{
+                color: rgb(14, 122, 0);
+                background-color: rgb(212, 212, 212);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                text-decoration-line: overline;
+                text-decoration-color: red;
+                text-decoration-style: solid;
+                text-decoration-thickness: auto;
+            }
+            .deco2{
+                color: rgb(14, 122, 0);
+                background-color: rgb(212, 212, 212);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                text-decoration-line: line-through;
+                text-decoration-color: green;
+                text-decoration-style: double;
+                text-decoration-thickness: 2px;
+            }
+            .deco3{
+                color: rgb(14, 122, 0);
+                background-color: rgb(212, 212, 212);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                text-decoration-line: underline;
+                text-decoration-color: blue;
+                text-decoration-style: dashed;
+                text-decoration-thickness: 25%;
+            }
+            .deco4{
+                color: rgb(14, 122, 0);
+                background-color: rgb(212, 212, 212);
+                border: 2px solid rgb(0, 0, 0);
+                margin: 20px;
+                padding: 10px;
+                text-decoration-line: underline overline;
+                text-decoration-color: purple;
+                text-decoration-style: wavy;
+                text-decoration-thickness: 3px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Text</h1>
+        </header>
+        <hr><hr>
+
+        <main>
+            <section>
+                <h3>CSS - Text Color and Background-Color</h3>
+
+                <p class="text1"><b>Hello World! - This is a Blue Color Text.</b></p>
+                <p class="text2"><b>Hello World! - This is a paragraph with the purple color background and lightskyblue color text.</b></p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Text Alignment</h3>
+
+                <p class="allin1"><b>Hello World! - This is a Default Alligned Text</b></p>
+                <p class="allin2"><b>Hello World! - This is a Text-allign-left</b></p>
+                <p class="allin3"><b>Hello World! - This is a Text-allign-center</b></p>
+                <p class="allin4"><b>Hello World! - This is a Text-allign-right</b></p>
+                <p class="allin5">
+                    <b>
+                        Hello World! - This is a Default Alligned Text. Hello World! - This is a Default Alligned Text. Hello World! - This is a Default Alligned Text. Hello World! - This is a Default Alligned Text. Hello World! - This is a Default Alligned Text. Hello World! - This is a Default Alligned Text.
+                    </b>
+                </p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Text Direction</h3>
+
+                <p class="dir1"><b>Hello World! - This is a text default - left to right direction</b></p>
+                <p class="dir2"><b>Hello World! - This is a text reverse - right to left direction</b></p>
+
+                <p class="vdir1"><b>Hello World! - This is <img class="a" src="ShadedBgrd.png" alt="tree" width="10" height="10"> default vartical direction</b></p>
+                <p class="vdir2"><b>Hello World! - This is <img class="b" src="ShadedBgrd.png" alt="tree" width="10" height="10"> an image with text-top allignment</b></p>
+                <p class="vdir3"><b>Hello World! - This is <img class="c" src="ShadedBgrd.png" alt="tree" width="10" height="10"> an image with text-bottom allignment</b></p>
+                <p class="vdir4"><b>Hello World! - This is <img class="d" src="ShadedBgrd.png" alt="tree" width="10" height="10"> an image with sub allignment</b></p>
+                <p class="vdir4"><b>Hello World! - This is <img class="e" src="ShadedBgrd.png" alt="tree" width="10" height="10"> an image with super allignment</b></p>
+            </section>
+            <hr>
+
+            <section>
+                <h3>CSS - Text Decoration</h3>
+
+                <p class="deco1"><b>Hello World! - Text decoration with overline, red color, solid style and auto thickness.</b></p>
+                <p class="deco2"><b>Hello World! - Text decoration with line-through, blue color, double style and 2px thickness.</b></p>
+                <p class="deco3"><b>Hello World! - Text decoration with underline, green color, dashed style and 25% thickness.</b></p>
+                <p class="deco4"><b>Hello World! - Text decoration with overline underline, purple color, wavy style and 3px thickness.</b></p>
+            </section>
+        </main>
+    </body>
+</html>
