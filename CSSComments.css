@@ -1,0 +1,16 @@
+body {                          /* This is a Comment in CSS */
+    border: 5px inset black;
+    padding: 20px;
+    margin: 20px;
+}
+p {                             /* This is Interal CSS Used to Style Paragraph */
+    color: darkblue;
+    background-color: rgb(226, 202, 253);
+    font-size: larger;
+}
+div {
+    color: green;
+    background-color: rgb(255, 179, 179);
+    font-family: fantasy;
+    font-size: 20px;
+}

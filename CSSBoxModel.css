@@ -1,0 +1,20 @@
+body{
+    border: 5px groove darkblue;
+    margin: 20px;
+    padding: 30px;
+}
+.box1{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    background-color: rgb(177, 204, 255);
+}
+.box2{
+    width: 350px;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(177, 204, 255);
+}

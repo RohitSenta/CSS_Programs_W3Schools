@@ -1,0 +1,26 @@
+p {
+    text-align: center;
+    color: brown;
+}
+#para1 {
+    color: darkblue;
+    text-align: left;
+}
+#para2 {
+    text-align: center;
+    color: purple;
+}
+.cls1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+}
+h3.cls {
+    font-style:italic;
+}
+*{
+    background-color: rgb(211, 235, 255);
+}
+h1, h3, p {
+    background-color: rgb(255, 223, 176);
+    text-decoration: underline;
+}
