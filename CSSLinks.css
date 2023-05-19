@@ -1,0 +1,299 @@
+body{
+    border: 5px outset rgb(111, 98, 98);
+    margin: 20px;
+    padding: 30px;
+}
+div.l1, .l2, .ldec, .dbtn{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+div.l1 a{
+    color: orangered;
+}
+div.l2 a:link{
+    color: rgb(188, 156, 144);
+}
+div.l2 a:visited{
+    color: #146200;
+}
+div.l2 a:hover{
+    color: rgb(156, 80, 255);
+}
+div.l2 a:active{
+    color: rgb(246, 0, 0);
+}
+
+div.ldec a:link{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+}
+div.ldec a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(238, 163, 23, 0.996);
+    margin: 10px;
+}
+div.ldec a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(251, 52, 52);
+    background-color: rgb(103, 255, 103);
+}
+div.ldec a:active{
+    color: rgb(43, 215, 60);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(173, 40, 0);
+    background-color: rgb(41, 27, 150);
+}
+
+.lbtn a{
+    background-color: green;
+    color: white;
+    margin-left:30px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.lbtn a:hover, a:active {
+    background-color: darkblue;
+    color: white;
+    text-decoration: underline;
+}
+
+.one a{
+    background-color: rgb(200, 116, 51);
+    color:white;
+    margin-left:30px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.one a:hover{
+    color:rgb(41, 27, 150);
+}
+.two a{
+    background-color: rgb(200, 116, 51);
+    color:white;
+    margin-left:30px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.two a:hover{
+    font-size: 50px;
+}
+.three a{
+    background-color: rgb(200, 116, 51);
+    color:white;
+    margin-left:30px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.three a:hover{
+    background-color: purple;
+}
+.four a{
+    background-color: rgb(200, 116, 51);
+    color:white;
+    margin-left:30px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.four a:hover{
+    font-family: fantasy;
+}
+.five a{
+    background-color: rgb(200, 116, 51);
+    color:white;
+    margin-left:30px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.five a:hover{
+    text-decoration: underline;
+}
+
+.abc a{
+    background-color: white;
+    border: 2px inset darkblue;
+    color: darkblue;
+    margin-left:30px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.abc a:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+.crs1{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: default;
+}
+.crs2{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: auto;
+}
+.crs3{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: crosshair;
+}
+.crs4{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: e-resize;
+}
+.crs5{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: help;
+}
+.crs6{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    margin-left:30px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: move;
+}
+.crs7{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    margin-left:30px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: n-resize;
+}
+.crs8{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: ne-resize;
+}
+.crs9{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: nw-resize;
+}
+.crs10{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    margin-left:30px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: pointer;
+}
+.crs11{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    margin-left:30px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: progress;
+}
+.crs12{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    margin-left:30px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: s-resize;
+}
+.crs13{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    margin-left:30px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: se-resize;
+}
+.crs14{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    margin-left:30px;
+    padding: 5px 20px;
+    width: 30%;
+    cursor: sw-resize;
+}
+.crs15{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: text;
+}
+.crs16{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: w-resize;
+}
+.crs17{
+    color: white;
+    background-color: rgb(50, 84, 176);
+    font-size: larger;
+    padding: 5px 20px;
+    margin-left:30px;
+    width: 30%;
+    cursor: wait;
+}
+
+
