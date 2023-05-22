@@ -1,0 +1,64 @@
+body {
+    border: 5px outset darkblue;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.ulist1 {
+    list-style-type:circle;
+}
+.ulist2 {
+    list-style-type: square;
+}
+
+.olist1{
+    list-style: upper-alpha;
+}
+.olist2{
+    list-style: upper-roman;
+}
+.olist3{
+    list-style: lower-greek;
+}
+
+.image {
+    list-style-image: url(Location_marker.png);
+    
+}
+
+.marker1{
+    list-style-position: inside;
+}
+.marker2{
+    list-style-position: outside;
+}
+.marker3{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lcolor1{
+    list-style-type: lower-roman;
+    background: #ff9999;
+    padding: 20px;
+}
+.lcolor1 li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 40px;
+}
+.lcolor2{
+    list-style-type:square;
+    background: #1f4daa;
+    padding: 20px;
+}
+.lcolor2 li {
+    background: #78b2ff;
+    color: rgb(37, 0, 139);
+    padding: 5px;
+    margin: 10px;
+    list-style-position: inside;
+}
