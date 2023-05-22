@@ -1,0 +1,137 @@
+body{
+    border: 5px ridge rgb(13, 48, 78);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px;
+}
+.t1, .h1, .d1 {
+    border: 2px solid black;
+}
+
+.t2{
+    width: 100%;
+}
+.t2, .h2, .d2 {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.t3{
+    width: 50%;
+}
+.t3, .h3, .d3 {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.h3{
+    height: 60px;
+}
+
+.t4{
+    width: 100%;
+}
+.t4, .h4, .d4 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.t5{
+    width: 100%;
+    text-align: left;
+}
+.t5, .h5, .d5 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.t6{
+    width: 100%;
+}
+.t6, .h6, .d6 {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.h6 {
+    padding: 5px;
+}
+.d6{
+    text-align: center;
+    vertical-align: bottom;
+    height: 50px;
+}
+
+.t7{
+    width: 100%;
+}
+.t7, .h7, .d7{
+    padding: 10px;
+    border-bottom: 1px solid #bcbcbc;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.t8{
+    width: 100%;
+}
+.t8, .h8, .d8{
+    padding: 10px;
+    border-bottom: 1px solid #bcbcbc;
+    border-collapse: collapse;
+    text-align: left;
+}
+.hvr1:hover{
+    background-color: rgb(22, 124, 47);
+    color: white;
+}
+
+.t9{
+    width: 100%;
+}
+.t9, .h9, .d9{
+    padding: 10px;
+    border-bottom: 1px solid #bcbcbc;
+    border-collapse: collapse;
+    text-align: left;
+}
+.clr1:hover{
+    background-color: #ece8d5;
+    color: rgb(0, 0, 0);
+}
+.clr1:nth-child(even){
+    background-color: #d2d2d2;
+}
+
+.t10{
+    width: 100%;
+}
+.t10, .h10, .d10{
+    padding: 10px;
+    border-bottom: 1px solid #bcbcbc;
+    border-collapse: collapse;
+    text-align: left;
+}
+.clr2 th{
+    background-color: rgb(128, 53, 0);
+    color: white;
+}
+.clr2:nth-child(even){
+    background-color: #e2e2e2;
+}
+
+.t11{   
+    width: 100%;
+}
+.t11, .h11, .d11{
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: left;
+}
+.clr3:nth-child(even){
+    background-color: #e2e2e2;
+}
+.rspn{
+    overflow-x: auto;
+}
