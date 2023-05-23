@@ -1,0 +1,17 @@
+body{
+    border: 5px groove #00000080;
+    margin: 20px;
+    padding: 30px;
+}
+.mw1{
+    border: 2px inset brown;
+    padding: 10px;
+    margin: auto;
+    width: 1000px;
+}
+.mw2{
+    border: 2px inset darkblue  ;
+    padding: 10px;
+    margin: auto;
+    max-width: 1000px;
+}
