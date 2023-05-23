@@ -1,0 +1,45 @@
+body{
+    border: 5px ridge rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+}
+.dv{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+.para1{
+    margin-left: 20px;
+}
+.inele{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 5px;
+}
+.para2{
+    margin: 20px;
+}
+.ovrd li {
+    margin: 20px;
+    display: inline ;
+}
+.spn1{
+    margin: 20px 40px;
+    display: block;
+}
+.none1{
+    margin: 10px 30px;
+}
+.none2{
+    margin: 10px 30px;
+    display: none;
+}
+.none3{
+    margin: 10px 30px;
+    visibility: hidden;
+}
+.none4{
+    margin: 10px 30px;
+    visibility: visible;
+}
