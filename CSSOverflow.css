@@ -1,0 +1,51 @@
+body{
+    border: 5px outset rgba(133, 133, 133, 0.705);
+    margin: 20px;
+    padding: 30px;
+}
+.ovrfl1{
+    border: 2px inset black;
+    background-color: rgb(255, 208, 208);
+    overflow: visible;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+.ovrfl2{
+    border: 2px inset black;
+    background-color: rgb(202, 239, 255);
+    overflow: hidden;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+.ovrfl3{
+    border: 2px inset black;
+    background-color: rgb(235, 255, 208);
+    overflow: scroll;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+.ovrfl4{
+    border: 2px inset black;
+    background-color: rgb(255, 246, 208);
+    overflow: auto;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+.ovrfl5{
+    border: 2px inset black;
+    background-color: rgb(236, 208, 255);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
