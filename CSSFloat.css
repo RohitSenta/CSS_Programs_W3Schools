@@ -1,0 +1,191 @@
+body{
+    border: 5px inset rgb(47, 0, 91);
+    margin: 20px;
+    padding: 30px;
+}
+
+/* for float */
+.fltimg1{
+    border: 2px inset black;
+    margin: 10px;
+    float: right;
+}
+.fltimg2{
+    border: 2px inset black;
+    margin: 10px;
+    float: left;
+}
+.fltimg3{
+    border: 2px inset black;
+    margin: 10px;
+    float: none;
+}
+
+/* for next to each other */
+.divf1{
+    padding: 20px;
+    width: 20%;
+    color: white;
+    background-color: red;
+    float: left;
+}
+.divf2{
+    padding: 20px;
+    width: 20%;
+    color: white;
+    background-color: green;
+    float: left;
+}
+.divf3{
+    padding: 20px;
+    width: 20%;
+    color: white;
+    background-color: blue;
+    float: left;
+}
+
+/*for float - clear with and without */
+.div1{
+    border: 2px solid darkblue;
+    padding: 10px;
+    float: left;
+}
+.div2{
+    border: 2px solid green ;
+    padding: 10px;
+}
+.div3{
+    border: 2px solid darkblue;
+    padding: 10px;
+    float: left;
+}
+.div4{
+    border: 2px solid green ;
+    padding: 10px;
+    clear: left;
+}
+
+/* for clearfix hack */
+.clx1{
+    border: 2px inset brown;
+    padding: 5px;
+}
+.img1{
+    float: right;
+}
+.img2{
+    float: left;
+}
+.clearfix1{
+    overflow: auto;
+}
+
+.clx2{
+    border: 2px inset darkblue;
+    padding: 5px;
+}
+.img3{
+    float: right;
+}
+.img4{
+    float: left;
+}
+.clearfix2::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+/* Grid Boxes */
+*{
+    box-sizing: border-box;
+}
+.mrg{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.box1{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: #003a75;
+}
+.box2{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: rgb(41, 110, 180);
+}
+.box3{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: rgb(166, 211, 255);
+}
+.clearfix3::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+/* For Navigation manu */
+.ul1 {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #555;
+}
+.li1{
+    float: left;
+}
+.ul1 .li1 a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.ul1 .li1 a:hover {
+    background-color: #222;
+}
+.active{
+    background-color: brown;
+}
+
+/* for Web Layout Example */
+
+.header, .footer{
+    background-color: #003a75;
+    color: white;
+    padding: 15px;
+}
+.colomn{
+    float: left;
+    padding: 15px;
+}
+.cfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.manu{
+    width: 25%;
+}
+.content{
+    width: 75%;
+}
+.manu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.manu .li2{
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color:rgb(133, 0, 0);
+    color: #ffffff;
+}
+.manu .li2:hover{
+    background-color: #440000;
+}
