@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS -Combinators</title>
+        <link rel="shortcut icon" href="CSS3_logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="CSSCombinators.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Combinators</h1>
+        </header>
+        <hr><hr>
+
+        <main>
+            <section>
+               <h3>There are four different Combinators in CSS:</h3>
+                <ul>
+                    <li><b>Descendant Combinator - (space)</b></li>
+                    <li><b>Child Combinator - (>)</b></li>
+                    <li><b>Adjacent Sibling Combinator - (+)</b></li>
+                    <li><b>General Sibling Combinator - (~)</b></li>
+                </ul>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Descendant Combinator - (space)</h3>
+
+                <p class="p1">Hello World - p1 not in div</p>
+
+                <div class="div1">
+                    <p class="p2">Hello World - p2 inside div</p>
+                    <p class="p2">Hello World - p2 inside div</p>
+                    <p class="p2">Hello World - p2 inside div</p>
+                </div>
+
+                <p class="p3">Hello World - p3 outside div</p>
+                <p class="p3">Hello World - p3 outside div</p>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Child Combinator - (>)</h3>
+
+                <p class="p4">Hello World - p4 not in div</p>
+
+                <div class="div2">
+                    <p class="p5">Hello World - p5 inside div</p>
+                    <p class="p5">Hello World - p5 inside div</p>
+                    <span>
+                        <p class="p5">Hello World - p5 in span</p>
+                    </span>
+                    <p class="p5">Hello World - p5 in div</p>
+                </div>
+
+                <p class="p6">Hello World - p6 outside div</p>
+                <p class="p6">Hello World - p6 outside div</p>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Adjacent Sibling Combinator - (+)</h3>
+
+                <p class="p7">Hello World - p7 not in div</p>
+
+                <div class="div3">
+                    <p class="p8">Hello World - p8 inside div</p>
+                    <p class="p8">Hello World - p8 inside div</p>
+                </div>
+
+                <p class="p9">Hello World - p9 outside div</p>
+                <p class="p9">Hello World - p9 outside div</p>
+                <p class="p9">Hello World - p9 outside div</p>
+
+                <div class="div4">
+                    <p class="p10">Hello World - p10 inside div</p>
+                    <p class="p10">Hello World - p10 inside div</p>
+                </div>
+
+                <p class="p11">Hello World - p11 outside div</p>
+                <p class="p11">Hello World - p11 outside div</p>
+                <p class="p11">Hello World - p11 outside div</p>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>General Sibling Combinator - (~)</h3>
+
+                <p class="p12">Hello World - p12 not in div</p>
+                <p class="p12">Hello World - p12 not in div</p>
+
+                <div class="div5">
+                    <p class="p13">Hello World - p13 inside div</p>
+                    <p class="p13">Hello World - p13 inside div</p>
+                    <p class="p13">Hello World - p13 inside div</p>
+                </div>
+
+                <p class="14">Hello World - p14 outside div</p>
+                <p class="14">Hello World - p14 outside div</p>
+                
+                <div class="div6">
+                    <p class="p15">Hello World - p15 inside div</p>
+                    <p class="p15">Hello World - p15 inside div</p>
+                </div>
+
+                <p class="p16">Hello World - p16 outside div</p>
+                <span class="span1">Hello World - span1 outside div</span>
+                <p class="p16">Hello World - p16 outside div</p>
+            </section>
+            <br><hr><hr>
+
+            <footer>
+                <h2>CSS - Combinators Completed</h2>
+            </footer>
+            <hr><hr>
+        </main>
+    </body>
+</html>

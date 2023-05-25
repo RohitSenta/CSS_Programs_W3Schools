@@ -1,0 +1,49 @@
+body{
+    border: 5px ridge rgb(201, 230, 255);
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Descendant Combinator - (space) */
+.div1 p{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 5px;
+    background-color: rgb(190, 225, 255);
+}
+
+/* Child Combinator - (>) */
+.div2 > p{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 5px;
+    background-color: rgb(206, 255, 161);
+}
+
+/* Adjacent Sibling Combinator - (+) */
+.div3 + p{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 5px;
+    background-color: rgb(255, 228, 161);
+}
+.div3 + p + p + p{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 5px;
+    background-color: rgb(255, 228, 161);
+}
+.div4 + p + p{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 5px;
+    background-color: rgb(255, 228, 161);
+}
+
+/* General Sibling Combinator - (~) */
+.div5 ~ p{
+    border: 2px solid black;
+    margin: 20px 100px;
+    padding: 5px;
+    background-color: rgb(226, 199, 255);
+}
