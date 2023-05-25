@@ -1,0 +1,58 @@
+body{
+    border: 5px darkslateblue;
+    margin: 20px;
+    padding: 30px;
+}
+.ctrele{
+    margin: auto;
+    width: 60%;
+    border: 3px outset green;
+    padding: 20px;
+}
+.ctrtxt{
+    text-align: center;
+    border: 3px ridge darkblue;
+    padding: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px outset rgb(118, 117, 117);
+}
+.alnpos{
+    position: absolute;
+    right: 80px;
+    width: 300px;
+    border: 3px groove brown;
+    padding: 10px;
+}
+.alnflt{
+    float: right;
+    right: 80px;
+    width: 500px;
+    border: 3px groove brown;
+    margin: 20px;
+    padding: 10px;
+}
+.alnpadd{
+    padding: 50px 20px;
+    text-align: center;
+    border: 3px outset rgb(164, 69, 164);
+}
+.alnlhgt{
+    line-height: 150px;
+    height: 150px;
+    padding: 0px 20px;
+    border: 3px solid rgb(118, 114, 114);
+    text-align: center;
+}
+.alnfxbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    border: 3px solid rgb(118, 114, 114);
+}
