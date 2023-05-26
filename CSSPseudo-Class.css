@@ -1,0 +1,98 @@
+body{
+    border: 5px outset rgba(0, 0, 0, 0.486);
+    margin: 20px;
+    padding: 30px;
+}
+/* Anchor Pseudo-Classes */
+.link1:link{
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: rgb(11, 76, 145);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.link1:visited{
+    color: rgb(255, 255, 255);
+}
+.link1:hover{
+    color: rgb(0, 0, 0);
+    background-color: green;
+}
+.link1:active{
+    color: black;
+    background-color: rgb(253, 167, 81);
+}
+
+/* Pseudo-Classes and HTML Classes */
+.link2:link{
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.link2:visited{
+    color: rgb(255, 255, 255);
+}
+.link2:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 210, 94);
+    text-shadow: 2px 2px 5px rgb(17, 79, 150);
+    font-size: 40px;
+    font-family: copperplate;
+}
+.link2:active{
+    color: white;
+    background-color: green;
+}
+
+/* simple tooltip hover */
+.p1{
+    display: none;
+    padding: 20px 50px;
+    background-color: rgb(19, 59, 119);
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+}
+span:hover .p1{
+    display: block;
+}
+
+/* CSS - The :first-child Pseudo-class */
+.p2 i:first-child{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: green;
+    padding: 10px 20px;
+}
+.p2 i:first-child:hover{
+    background-color: rgb(93, 62, 62);
+    color: white;
+}
+p:first-child i{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: rgb(75, 0, 128);
+    padding: 10px 20px;
+}
+p:first-child i:hover{
+    background-color: #dd601c;
+    color: rgb(0, 0, 0);
+    font-family: copperplate;
+    font-style: normal;
+}
+
+/* CSS The :lang Pseudo-class */
+q:lang(no){
+    quotes: "~" "~";
+    color: brown;
+    border: 2px inset green;
+}
+
+
+
