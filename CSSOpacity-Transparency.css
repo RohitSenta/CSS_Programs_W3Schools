@@ -1,0 +1,122 @@
+body{
+    border: 5px outset rgba(0, 0, 0, 0.361);
+    margin: 20px;
+    padding: 30px;
+}
+/* Image transparenct */
+.a{
+    margin: 20px;
+    opacity: 1.0;
+}
+.b{
+    margin: 20px;
+    opacity: 0.7;
+}
+.c{ 
+    margin: 20px;
+    opacity: 0.3;
+}
+
+/* Transparent hover effect pre transparent */
+.x{
+    opacity: 0.4;
+    margin: 20px;
+}
+.x:hover {
+    opacity: 1.0;
+}
+.y{
+    opacity: 0.4;
+    margin: 20px;
+}
+.y:hover {
+    opacity: 1.0;
+}
+.z{
+    opacity: 0.4;
+    margin: 20px;
+}
+.z:hover {
+    opacity: 1.0;
+}
+
+/* Transparent hover effect post transparent */
+.m{
+    opacity: 1.0;
+    margin: 20px;
+}
+.m:hover {
+    opacity: 0.4;
+}
+.n{
+    opacity: 1.0;
+    margin: 20px;
+}
+.n:hover {
+    opacity: 0.4;
+}
+.o{
+    opacity: 1.0;
+    margin: 20px;
+}
+.o:hover {
+    opacity: 0.4;
+}
+
+/* Transparent Box with opacity value */
+.div1{
+    background-color: green;
+    padding: 20px;
+    opacity: 0.1;
+}
+.div2{
+    background-color: green;
+    padding: 20px;
+    opacity: 0.3;
+}
+.div3{
+    background-color: green;
+    padding: 20px;
+    opacity: 0.6;
+}
+.div4{
+    background-color: green;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+/* Transparent Box using RGBA color value */
+.div5{
+    background-color: rgba(0, 128, 0, 0.1);
+    padding: 20px;
+}
+.div6{
+    background-color: rgba(0, 128, 0, 0.3);
+    padding: 20px;
+}
+.div7{
+    background-color: rgba(0, 128, 0, 0.6);
+    padding: 20px;
+}
+.div8{
+    background-color: rgba(0, 128, 0, 1.0);
+    padding: 20px;
+}
+
+/* Text in Transparent Box */
+.backgroud{
+    background: url(img_forest.jpg) repeat;
+    border: 3px inset black;
+}
+.textbox{
+    background-color: #ffffff;
+    margin: 60px;
+    border: 3px inset black;
+    opacity: 0.4;
+}
+.textbox .p1{
+    margin: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
