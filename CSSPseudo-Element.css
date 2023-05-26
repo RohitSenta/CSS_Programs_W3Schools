@@ -1,0 +1,48 @@
+body{
+    border: 5px outset rgba(165, 42, 42, 0.493);
+    margin: 20px;
+    padding: 30px;
+}
+/*for The ::first-line pseudo-element */
+.p1::first-line{
+    color: darkblue;
+    background-color: rgb(194, 220, 249);
+    font-size: large;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+/*for The ::first-letter pseudo-element and multiple pseudo-elements */
+.p2::first-letter{
+    color: brown;
+    font-size: 100px;
+    font-family: copperplate;
+}
+.p2::first-line{
+    color: darkblue;
+    background-color: rgb(199, 229, 255);
+    font-family: copperplate;
+}
+
+/* for The ::before pseudo-element */
+.p3::before{
+    content: url(Location_marker.png);
+}
+
+/* for The ::after pseudo-element */
+.p4::after{
+    content: url(Location_marker.png);
+}
+
+/* for The ::marker pseudo-element */
+::marker{
+    color: red;
+    font-size: x-large;
+}
+
+/* for The ::selection pseudo-element */
+::selection{
+    background-color: rgb(0, 81, 136);
+    color: white;
+}
