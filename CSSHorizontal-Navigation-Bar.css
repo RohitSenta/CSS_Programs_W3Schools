@@ -1,0 +1,152 @@
+body{
+    border: 5px outset rgba(0, 0, 0, 0.477);
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Horizontal Navigation Bar */
+.hornav1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #444;
+}
+.hornav1 li {
+    float: left;
+}
+.hornav1 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hornav1 li a:hover {
+    background-color: #111;
+}
+
+/* Horizontal Navigation Bar with Active/Current Link*/
+.hornav2{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #444;
+}
+.hornav2 li {
+    float: left;
+}
+.hornav2 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hornav2 li a:hover{
+    background-color: #111;
+}
+.active1{
+    background-color: rgb(3, 82, 186);
+}
+
+/* Horizontal Nav Bar Right Aling */
+.hornav3{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #444;
+}
+.hornav3 li {
+    float: left;
+}
+.hornav3 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hornav3 li a:hover{
+    background-color: #111;
+}
+.active2{
+    background-color: rgb(231, 181, 88);
+}
+.flt1{
+    float: right !important;
+}
+
+/* Horizontal Nav Bar Right Aling with Border*/
+.hornav4{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #444;
+}
+.hornav4 li {
+    float: left;
+    border: 1px solid #ddd;
+}
+.hornav4 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hornav4 li a:hover:not(.active3){
+    background-color: #111;
+}
+.active3{
+    background-color: rgb(16, 112, 13);
+}
+.flt2{
+    float: right !important;
+}
+
+/* Stickey-Top Navigation Bar */
+.hornav5{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #444;
+    position: sticky;
+    top: 50px;
+    width: 100%;
+}
+.hornav5 li {
+    float: left;
+}
+.hornav5 li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.hornav5 li a:hover:not(.active1){
+    background-color: #111;
+}
+.active4{
+    background-color: rgb(201, 54, 54);
+}
+.sec4{
+    border: 2px inset darkblue;
+    padding: 20px;
+    margin: 20px;
+}
+.stk{
+    position: sticky;
+    top: 10px;
+}
+.div1 {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    height: 1500px;
+}
