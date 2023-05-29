@@ -1,0 +1,94 @@
+body{
+    border: 5px inset rgba(0, 0, 139, 0.443);
+    margin: 20px;
+    padding: 30px;
+}
+/* Vertical Navigation Bar */
+.vrtnav1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.vrtnav1 li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.vrtnav1 li a:hover {
+    background-color: #0268b1;
+    color: white;
+}
+
+/* Vertical Nav-Bar with Active/Current, Center Link and Borders */
+.vrtnav2{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+
+.vrtnav2 li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.vrtnav2 li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+  
+.vrtnav2 li:last-child {
+border-bottom: none;
+}
+.vrtnav2 li a.active1{
+    background-color: #0478aa;
+    color: white;
+}
+.vrtnav2 li a:hover:not(.active1) {
+    background-color: #954b39;
+    color: white;
+}
+
+/* Fixed Full-Height Side Nav */
+.sec3{
+    border: 2px inset rgb(139, 60, 0);
+    padding: 20px;
+    margin: 20px;
+}
+.vrtnav3{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+    position: sticky;
+    top: 20px;
+    height: 100%;
+    width: 25%;
+    overflow: auto;
+}
+.vrtnav3 li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.vrtnav3 li a.active2 {
+    background-color: #04AA6D;
+    color: white;
+}
+.vrtnav3 li a:hover:not(.active2){
+    background-color: #555;
+    color: white;
+}
+.div1{
+    margin-left: 27%;
+    padding: 1px 16px;
+    height: 2000px; 
+}
