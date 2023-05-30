@@ -140,13 +140,13 @@ body{
     text-decoration: none;
 }
 
-.ul1 li a:hover {
+.ul1 li a:hover , .dd:hover .dbtn{
     background-color: red;
 }
 
-.dd .ddcont a:hover{
+/* .dd .ddcont a:hover{         // we can also add this part for dropdown manu background color
     background-color: #4444;
-}
+} */
 
 .ul1 li.dd{
     display: inline-block;
@@ -159,15 +159,15 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
-.dd .ddcont a {
+.ul1 .ddcont a {
     color: black ;
     padding: 12px 16px;
     text-decoration: none;
     display: block       ;
     text-align: left;
 }
-.ddcont a:hover {
-    background-color: #f1f1f1;
+.ul1 .ddcont a:hover {
+    background-color: #4444;
 }
 .dd:hover .ddcont{
     display: block;
