@@ -1,3 +1,4 @@
+
 body{
     border: 5px outset rgba(0, 0, 0, 0.361);
     margin: 20px;
@@ -105,7 +106,7 @@ body{
 
 /* Text in Transparent Box */
 .backgroud{
-    background: url(img_forest.jpg) repeat;
+    background: url(/images/img_forest.jpg) repeat;
     border: 3px inset black;
 }
 .textbox{
