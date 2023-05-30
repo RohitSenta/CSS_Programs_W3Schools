@@ -23,7 +23,7 @@ body {
 }
 
 .image {
-    list-style-image: url(Location_marker.png);
+    list-style-image: url(../images/Location_marker.png);
     
 }
 
