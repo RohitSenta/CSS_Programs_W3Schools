@@ -2,10 +2,10 @@ body {
     border: 5px groove black;
     padding: 20px;
     margin: 20px;
-    background: url(backgrd3.jpg);
+    background: url(/images/backgrd3.jpg);
     background-size: 300px;
 }
 div {
-    background: url(backgrd.jpg);
+    background: url(/images/backgrd.jpg);
     background-size: 300px;
 }
