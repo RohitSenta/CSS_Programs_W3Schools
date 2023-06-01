@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Forms</title>
+        <link rel="shortcut icon" href="/images/CSS3_logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="/css/CSSForms.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Forms</h1>
+        </header>
+        <hr><hr>
+
+        <main>
+            <section>
+                <h3>Using CSS to Style an HTML Form</h3>
+
+                <div class="div1">
+                    <form action="#form1" class="form1">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Last name..">
+
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="australia">Australia</option>
+                            <option value="india">India</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Styling Input Fields With Padding</h3>
+                <div class="div2">
+                    <form action="#form2" class="form2">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Enter your first name here...">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="name" id="lastlname" placeholder="Enter your last name here...">
+                    </form> 
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Bordered Input Fields</h3>
+                <div class="div3">
+                    <p><b>Border-Color</b></p>
+                    <form action="#form3" class="form3">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Name...">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="name" id="lastlname" placeholder="Surname...">
+                    </form> 
+                    <br>
+
+                    <p><b>Border-Bottom</b></p>
+                    <form action="#form3-1" class="form3-1">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Name...">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="name" id="lastlname" placeholder="Surname...">
+                    </form> 
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Colored Input Fields</h3>
+                <div class="div4">
+                    <form action="#form4" class="form4">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" value="Rohit" placeholder="Name...">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lastlname" name="name" value="Senta" placeholder="Surname...">
+                    </form> 
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Focused Input Fields</h3>
+                <div class="div5">
+                    <p><b>Focused Background-Color</b></p>
+                    <form action="#form5" class="form5">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Name...">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lastlname" name="name" placeholder="Surname...">
+                    </form> 
+                    <br>
+
+                    <p><b>Focused Border</b></p>
+                    <form action="#form5-1" class="form5-1">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Name...">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lastlname" name="name" placeholder="Surname...">
+                    </form> 
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Animated - Imput with Icon/Image</h3>
+                
+                <div class="div6">
+                    <p><b>Input with Icon</b></p>
+                    <form action="#form6" class="form6">
+                        <input type="text" name="search" id="search" placeholder="Search Anything Here....">
+                    </form>
+                    <br>
+
+                    <p><b>Input with Icon</b></p>
+                    <form action="#form6-1" class="form6-1">
+                        <input type="text" name="search" id="search" placeholder="Search Here....">
+                    </form>
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Styling Text Area</h3>
+
+                <div class="div7">
+                    <form action="#form7" class="form7">
+                        <textarea placeholder="Some Text....."></textarea>
+                    </form>
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Styling Select Manu</h3>
+                
+                <div class="div8">
+                    <form action="#form8" class="form8">
+                       <select name="city" id="city">
+                        <option value="surat" selected>Surat</option>
+                        <option value="ahmedabad">Ahmedabad</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="pune">Pune</option>
+                        <option value="delhi">Delhi</option>
+                       </select>
+                    </form>
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h3>Styling Input Buttons</h3>
+                <div class="div9">
+                    <form action="form9" class="form9">
+                        <input type="button" value="Button" id="button">
+                        <input type="reset" value="Reset" id="reset">
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+                </div>
+            </section>
+            <br><hr><hr><br>
+
+
+            <section>
+                <h3>Resonsive Form</h3>
+
+                <div class="container">
+                    <form action="#form10" class="form10">
+
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">First Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" name="firstname" id="fname" placeholder="Your Name..">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Last Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" name="Lastname" id="lname" placeholder="Your Surname..">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="city">City</label>
+                            </div>
+                            <div class="col-75">
+                                <select name="city" id="city">
+                                    <option value="surat" selected>Surat</option>
+                                    <option value="ahmedabad">Ahmedabad</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="pune">Pune</option>
+                                    <option value="delhi">Delhi</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea name="subject" id="subject" placeholder="Write Something Here..."></textarea>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                
+                    </form>
+                </div>
+            </section>
+            
+        </main> 
+        <br><hr><hr>
+
+        <footer>
+            <h2>CSS Forms Completed</h2>
+        </footer>
+        <br><br>
+    </body>
+</html>

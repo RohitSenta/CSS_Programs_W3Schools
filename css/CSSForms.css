@@ -1,0 +1,301 @@
+body{
+    border: 5px inset #5555;
+    padding: 30px;
+    margin: 20px;
+}
+/* for Using CSS styled HTML form */
+.form1 input[type=text], select{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px inset #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form1 input[type=submit]{
+    width: 100%;
+    background-color: #00559b;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+.form1 input[type=submit]:hover{
+    background-color: #428d01;
+}
+.div1{
+    border-radius: 5px;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+/* for Styling Input Fields with Padding */
+.form2 input[type=text], select{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px inset #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.div2{
+    border-radius: 5px;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+/* for Bodered Input     Fields */
+.form3 input[type=text]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px outset #ee7919;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form3-1 input[type=text]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px outset #db3030;
+    box-sizing: border-box;
+}
+.div3{
+    border-radius: 5px;
+    background-color: #d5eaff;
+    padding: 20px;
+}
+
+/* for Colored Input Fields */
+.form4 input[type=text]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    background-color: #ffdbb4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.div4{
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* for Focus Input Fields */
+.form5 input[type=text]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    -webkit-transition: 0.5s;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form5 input[type=text]:focus{
+    background-color: #d2efb9;
+}
+.form5-1 input[type=text]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #aaa;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    border-radius: 5px;
+    outline: none;
+}
+.form5-1 input[type=text]:focus{
+    border: 3px solid #333;
+}
+.div5{
+    border-radius: 5px;
+    background-color: #fce6e6;
+    padding: 20px;
+}
+
+/* Input Field with Search icon/image  */
+.form6 input[type=text]{
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px inset #5555;
+    border-radius: 5px;
+    font-size: 20px;
+    background-image: url(/images/Search_icon2.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px 10px;
+    padding: 15px 20px 15px 50px ;
+    box-sizing: border-box;
+}
+.form6-1 input[type=text]{
+    width: 15%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px inset #5555;
+    border-radius: 5px;
+    font-size: 20px;
+    background-image: url(/images/Search_icon2.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px 10px;
+    padding: 15px 20px 15px 50px ;
+    box-sizing: border-box;
+    outline: none;
+}
+.form6-1 input[type=text]:focus{
+    width: 100%;
+    border: 3px inset #333
+}
+.div6{
+    border-radius: 5px;
+    background-color: #fdeeff;
+    padding: 20px;
+}
+
+/* Styling Text Area */
+.form7 textarea{
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    border-radius: 5px;
+    background-color: #ffdab3;
+    font-size: 20px;
+    resize: none;
+}
+.div7{
+    border-radius: 5px;
+    background-color: #d6ffd8;
+    padding: 20px;
+}
+
+/* Styling Select Manu */
+.form8{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #63585887;
+    box-sizing: border-box;
+}
+
+/* Styling Input Buttons */
+.form9 input[type=button]{
+    background-color: #00559b;
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}   
+.form9 input[type=button]:hover{
+    background-color: #a7600a;
+}
+.form9 input[type=reset]{
+    background-color: #109b00;
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}   
+.form9 input[type=reset]:hover{
+    background-color: #a652b3;
+}
+.form9 input[type=submit]{
+    background-color: #b13c1c;
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}   
+.form9 input[type=submit]:hover{
+    background-color: #17006b;
+}
+.div9{
+    border-radius: 5px;
+    background-color: #d6ebff;
+    padding: 20px;
+}
+
+/* Responsive Form */
+.container *{
+    box-sizing: border-box;
+}
+
+.container input[type=text], select, textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.container label{
+    padding: 15px 15px 15px 0;
+    display: inline-block;
+}
+
+.container input[type=submit]{
+    background-color: #109b00;
+    color: white;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+.container input[type=submit]:hover{
+    background-color: #00559b;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    
+}
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
