@@ -97,9 +97,9 @@ body{
     margin: 8px 0;
     display: inline-block;
     border: none;
-    -webkit-transition: 0.5s;
     box-sizing: border-box;
     border-radius: 5px;
+    outline: none;
 }
 .form5 input[type=text]:focus{
     background-color: #d2efb9;
@@ -111,7 +111,6 @@ body{
     display: inline-block;
     border: 3px solid #aaa;
     box-sizing: border-box;
-    -webkit-transition: 0.5s;
     border-radius: 5px;
     outline: none;
 }
