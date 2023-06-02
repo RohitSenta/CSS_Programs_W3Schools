@@ -1,0 +1,40 @@
+body{
+    border: 5px inset #5555;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Automatic Numbering With Counters */
+.div1{
+    counter-reset: section;
+}
+.div1 p::before{
+    counter-increment: section;
+    content: "Section - " counter(section) ": ";
+}
+
+/* Nested of Counters*/
+.div2{
+    counter-reset: section;
+}   
+.div2 div{
+    counter-reset: subsection;
+}
+.div2 div::before{
+    counter-increment: section;
+    content: "Section - " counter(section)". ";
+}
+.div2 p::before{
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection)" ";
+}
+ 
+/* Child Element With Different Levels - Nested Counters */
+.div3 ol{
+    counter-reset: section;
+    list-style-type: none;
+}
+.div3 li::before{
+    counter-increment: section;
+    content: counters(section,".") " ";
+}
