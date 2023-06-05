@@ -27,12 +27,15 @@ body{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 15px 30px;
+    padding: 20px 40px;
     text-decoration: none;
 }
 .topnav a:hover{
     background-color: #ddd;
     color: black;
+}
+.topnav .stl{
+    float: right;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -50,17 +53,17 @@ body{
 }
 
 /* image 1 */
-.img1{
+.img1 img{
     width: 100%;
     background-color: #cacacaaa;
     padding: 20px;
 }
-.img2{
+.img2 img{
     width: 100%;
     background-color: #cacacaaa;
     padding: 20px;
 }
-.img3{
+.img3 img{
     width: 100%;
     background-color: #cacacaaa;
     padding: 20px;
@@ -95,12 +98,19 @@ body{
         width: 100%;
         padding: 0;
     }
+    .rightcolomn{
+        text-align: center;
+    }
+
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 570px){
     .topnav a{
         width: 100px;
+        float: none;
+    }
+    .topnav .stl{
         float: none;
     }
    
