@@ -131,7 +131,7 @@ body{
     border: 2px inset #5555;
     border-radius: 5px;
     font-size: 20px;
-    background-image: url(/images/Search_icon2.png);
+    background-image: url(../images/Search_icon2.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 10px 10px;
@@ -145,7 +145,7 @@ body{
     border: 2px inset #5555;
     border-radius: 5px;
     font-size: 20px;
-    background-image: url(/images/Search_icon2.png);
+    background-image: url(../images/Search_icon2.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 10px 10px;
