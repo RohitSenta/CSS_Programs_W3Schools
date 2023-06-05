@@ -2,7 +2,7 @@ body {
     border: 5px groove black;
     margin: 30px;
     padding: 30px;
-    background: url(/images/backtree.jpg);
+    background: url(../images/backtree.jpg);
     background-size: 300px;
     background-repeat: no-repeat ;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
     border: 4px ridge black;
     padding: 30px;
     margin: 40px;
-    background: url(/images/ShadedBgrd.png);
+    background: url(../images/ShadedBgrd.png);
     background-size: 190px;
     background-repeat: repeat-x;
 }
@@ -21,7 +21,7 @@ body {
     border: 4px ridge black;
     padding: 30px;
     margin: 40px;
-    background: url(/images/ShadedBgrd.png);
+    background: url(../images/ShadedBgrd.png);
     background-size: 250px;
     background-repeat: repeat-y ;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body {
     border: 4px ridge black;
     padding: 30px;
     margin: 40px;
-    background: url(/images/ShadedBgrd.png);
+    background: url(../images/ShadedBgrd.png);
     background-size: 220px;
     background-repeat: no-repeat ;
 }
@@ -38,7 +38,7 @@ body {
     border: 4px ridge black;
     padding: 30px;
     margin: 40px;
-    background: url(/images/Pinktree.jpeg);
+    background: url(../images/Pinktree.jpeg);
     background-size: 450px;
     background-repeat: no-repeat ;
     background-position: right center;
@@ -47,6 +47,6 @@ body {
     border: 4px ridge black;
     padding: 30px;
     margin: 40px;
-    background: #ffffff url(/images/backtree.jpg) no-repeat right bottom;
+    background: #ffffff url(../images/backtree.jpg) no-repeat right bottom;
     background-size: 200px;
 }
