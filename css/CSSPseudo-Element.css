@@ -28,12 +28,12 @@ body{
 
 /* for The ::before pseudo-element */
 .p3::before{
-    content: url(Location_marker.png);
+    content: url(../images/Location_marker.png);
 }
 
 /* for The ::after pseudo-element */
 .p4::after{
-    content: url(Location_marker.png);
+    content: url(../images/Location_marker.png);
 }
 
 /* for The ::marker pseudo-element */
