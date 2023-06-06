@@ -1,0 +1,95 @@
+body{
+    border: 5px outset #4444;
+    margin: 20px;
+    padding: 30px;
+}
+
+div #p1{
+    background-color: rgb(202, 230, 255);
+    color: brown;
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.div2 p{
+    background-color: rgb(217, 255, 202);
+    color: rgb(0, 2, 125);
+    border: #5555 2px solid;
+    font-size: 10px;
+    padding: 10px;
+}
+.div2 .test{
+    background-color: rgb(255, 234, 202);
+    color: brown;
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.div3 p{
+    background-color: rgb(117, 117, 117);
+    color: rgb(0, 24, 142);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+.div3 .test{ 
+    background-color: rgb(110, 0, 0); 
+    color: rgb(255, 255, 255);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+.div3 #demo{ 
+    background-color: rgb(237, 255, 191);
+    color: rgb(0, 24, 142);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.div4 p{
+    background-color: rgb(117, 117, 117);
+    color: rgb(0, 24, 142);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+.div4 .test1{ 
+    background-color: rgb(110, 0, 0); 
+    color: rgb(255, 255, 255);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+.div4 #demo1{ 
+    background-color: rgb(237, 255, 191);
+    color: rgb(0, 24, 142);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.div5 p{
+    background-color: rgb(117, 117, 117);
+    color: rgb(0, 24, 142);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+.div5 .test2{ 
+    background-color: #233088 !important; 
+    color: #ffffff !important;
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+.div5 #demo2{ 
+    background-color: rgb(237, 255, 191);
+    color: rgb(0, 24, 142);
+    border: #5555 2px solid;
+    font-size: 20px;
+    padding: 10px;
+}
+

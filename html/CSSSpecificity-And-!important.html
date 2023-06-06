@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Specificity</title>
+        <link rel="shortcut icon" href="../images/css3_logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="../css/CSSSpecificity-And-!important.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Specificity And !important</h1>
+        </header>
+        <hr><hr>
+
+        <main>
+            <section>
+                <h3>Specificity</h3>
+
+                <p><b>
+                    If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
+                </b></p>
+                <p><b>
+                    Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
+                </b></p>
+                <hr>
+
+                <div>
+                    <p>Inline styles - Example : &lg h1 style="color: red";</p>
+                    <p>IDs - Example : #navbar</p>
+                    <p>Classes, Pseudo-classes, attribute seletor - Example : .test, :hover, a[href]</p>
+                    <p>Element and Pseudo-Elements - Example : h1, ::before</p>
+                    <p>
+                        !important rule in CSS is used to add more importance to a property/value than normal. <br>
+                        if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
+                    </p>
+                </div>
+                
+            </section>
+            <hr><br>
+
+            <section>
+                <div class="div1">
+                    <p id="p1">Hello World!!!</p>
+                </div>
+
+                <div class="div2">
+                    <p class="test">Hello World!!!</p>
+                </div>
+
+                <div class="div3">
+                    <p id="demo" class="test">Hello World!!!</p>
+                </div>
+
+                <div class="div4">
+                    <p id="demo1" class="test1" style="background-color: rgb(178, 60, 51); color: rgb(255, 255, 255);">Hello World!!!</p>
+                </div>
+
+                <div class="div5">
+                    <p id="demo2" class="test2" style="background-color: rgb(194, 111, 33); color: white;">Hello World!!!</p>
+                </div>
+            </section>
+        </main>
+        <br><hr><hr>
+
+        <footer>
+            <h2>CSS Specificity And !important Completed</h2>
+        </footer>
+        <hr><hr>
+    </body>
+</html>
