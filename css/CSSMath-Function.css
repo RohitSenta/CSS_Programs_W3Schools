@@ -1,0 +1,37 @@
+body{
+    border: 5px ridge #4444;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Math Function - calc() */
+#div1 p {
+    background-color: #ffd8b2;
+    border: 2px solid #4444;
+    font-size: larger;
+    padding: 10px;
+    width: calc(100% - 20% + 200px);
+    margin: auto;
+}
+
+/* Math Function - max() */
+#div2 p {
+    background-color: #e5ffb2;
+    border: 2px solid #44444444;
+    font-size: larger;
+    padding: 10px;
+    width: max(80%, 1500px);
+    height: 100px;
+    margin: auto;
+}
+
+/* Math Function - min() */
+#div3 p {
+    background-color: #b2e4ff;
+    border: 2px solid #44444444;
+    font-size: larger;
+    padding: 10px;
+    height: 200px;
+    width: min(70%, 1200px);
+    margin: auto;
+}
