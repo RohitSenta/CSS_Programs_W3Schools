@@ -1,0 +1,42 @@
+body{
+    border: 5px solid #2228;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Image Border - Round */
+.borderimg1{
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(../images/border_image.png) 30 round;
+}
+
+/* Image Border - Streched */
+.borderimg2{
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(../images/border_image.png) 30 stretch;
+}
+
+/* Image Border - Different Slice Value */
+.borderimg3{
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(../images/border_image.png) 50 round;
+}
+.borderimg4{
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(../images/border_image.png) 20% round;
+}
+.borderimg5{
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(../images/border_image.png) 10% stretch;
+}
+.borderimg6{
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(../images/border_image.png) 20% stretch;
+}
+
