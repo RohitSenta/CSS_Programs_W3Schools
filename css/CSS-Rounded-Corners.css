@@ -1,0 +1,94 @@
+body{
+    border: 5px inset #5555;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* for element with background color */
+.rcorners1{
+   border-radius: 20px;
+   background-color: #264897;
+   color: white;
+   padding: 20px;
+   width: 200px;
+   height: 150px;
+}
+/* for element with border */
+.rcorners2{
+    border-radius: 20px;
+    border: 3px inset #b78041;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+/* for element with background image */
+.rcorners3{
+    border-radius: 20px;
+    background-image: url(../images/backgrd.jpg);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+/* Specify Corners - Four Corner Values -  Top-Left; Top-Right; Bottom-Right; Bottom-Left; */
+.Rcorn1{
+    border-radius: 40px 30px 60px 20px ;
+    background-color: #b56129;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+/* Specify Corners - Three Corner Values -  Top-Left; Top-Right & Bottom-Left; Bottom-Right; */
+.Rcorn2{
+    border-radius: 20px 60px 50px;
+    background-color: #b56129;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+/* Specify Corners - Two Corner Values -  Top-Left & Bottom-Right; Top-Right & Bottom-Left; */
+.Rcorn3{
+    border-radius: 20px 70px;
+    background-color: #b56129;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+/* Specify Corners - All Corner Values -  Top-Left & Bottom-Right & Top-Right & Bottom-Left; */
+.Rcorn4{
+    border-radius: 30px;
+    background-color: #b56129;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+/* Border-Radius Elliptical Corners */
+.Ecorn1{
+    border-radius: 50px / 20px;
+    background-color: #165f96;
+    color: white;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+}
+.Ecorn2{
+    border-radius: 20px / 50px;
+    background-color: #165f96;
+    color: white;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+}
+.Ecorn3{
+    border-radius: 40%;
+    background-color: #165f96;
+    color: white;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+}
