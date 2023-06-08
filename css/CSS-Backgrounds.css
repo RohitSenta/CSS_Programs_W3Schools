@@ -1,0 +1,34 @@
+body{
+    border: 5px groove rgb(255, 230, 203);
+    margin: 30px;
+    padding: 20px;
+}
+
+/* Multiple Backgrounds */
+.mbgnd{
+    background-image: url(../images/img_tree.png), url(../images/ShadedBgrd.png), url(../images/plain_black_brg.jpeg);
+    background-position: right 30px bottom 10px, left 20px center, left center;
+    background-size: 100px, 100px, auto;
+    background-repeat: no-repeat, no-repeat, repeat;
+    padding: 20px;
+    color: rgb(225, 225, 225);
+}
+
+/* Background Size */
+.bgrdsize{
+    background-image: url(../images/img_city2.jpeg), url(../images/plain_black_brg.jpeg);
+    background-size: 250px 150px, auto;
+    background-repeat: no-repeat, repeat;
+    background-position: right 20px center, left top;
+    color: rgb(255, 195, 154);
+    padding: 30px;
+}   
+
+/* Define size of multiple background images  */
+.mutliback{
+    background-image: url(../images/img_tree.png), url(../images/backgrd1.jpg), url(../images/img_yellow_bgrd.png);
+    background-position: left 20px center, right 20px center, left top;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 100px, 300px 150px, auto;
+    padding: 20px;
+}
