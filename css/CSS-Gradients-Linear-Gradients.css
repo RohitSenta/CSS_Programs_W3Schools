@@ -1,0 +1,45 @@
+body{
+    border: 5px ridge #555;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* linear gradient - direction - top to bottom */
+.lgrad1{
+    padding: 80px;
+    text-align: center;
+    background-color: red;
+    background-image: linear-gradient(red, blue);
+}
+
+/* linear gradient - direction - left to right */
+.lgrad2{
+    padding: 80px;
+    text-align: center;
+    background-color: blue;
+    background-image: linear-gradient(to right, blue, red);
+}
+
+/* linear gradient - direction - bottom to top */
+.lgrad3{
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(103, 87, 53);
+    background-image: linear-gradient(to top, green, white, orange);
+}
+
+/* linear gradient - direction - right to left*/
+.lgrad4{
+    padding: 80px;
+    text-align: center;
+    background-color: yellow;
+    background-image: linear-gradient(to left, green, white, orange);
+}
+
+/* linear gradient - direction - diagonal to bottom left*/
+.lgrad5{
+    padding: 80px;
+    text-align: center;
+    background-color: yellow;
+    background-image: linear-gradient(to bottom right, orange, white, green);
+}
