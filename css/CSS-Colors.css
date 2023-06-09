@@ -1,0 +1,83 @@
+body{
+    border: 5px outset #4444;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* RGBA Color */
+.p1{
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.p2{
+    padding: 10px;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.p3{
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.p4{
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+.p5{
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.5);
+}
+.p6{
+    padding: 10px;
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+/* HSLA Colors */
+.p7{
+    padding: 10px;
+    background-color: hsla(0, 100%, 50%, 0.1);
+}
+.p8{
+    padding: 10px;
+    background-color: hsla(0, 100%, 50%, 0.3);
+}
+.p9{
+    padding: 10px;
+    background-color: hsla(0, 100%, 50%, 0.5);
+}
+.p10{
+    padding: 10px;
+    background-color: hsla(0, 100%, 50%, 0.7);
+}
+.p11{
+    padding: 10px;
+    background-color: hsla(0, 100%, 50%, 0.8);
+}
+.p12{
+    padding: 10px;
+    background-color: hsla(0, 100%, 50%, 1.0);
+}
+
+/* Opacity Colors */
+.p13{
+    padding: 10px;
+    background-color: #00ff00; opacity: 0.1;
+}
+.p14{
+    padding: 10px;
+    background-color: #00ff00; opacity: 0.3;
+}
+.p15{
+    padding: 10px;
+    background-color: #00ff00; opacity: 0.5;
+}
+.p16{
+    padding: 10px;
+    background-color: #00ff00; opacity: 0.7;
+}
+.p17{
+    padding: 10px;
+    background-color: #00ff00; opacity: 0.9;
+}
+.p18{
+    padding: 10px;
+    background-color: #00ff00; opacity: 1.0;
+}
