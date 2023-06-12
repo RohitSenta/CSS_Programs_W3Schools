@@ -1,0 +1,97 @@
+body{
+    border: 5px inset #555;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* conic gradient - three colors */
+.cgrad1{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: conic-gradient(red, yellow, green);
+}
+
+/* conic gradient - five colors */
+.cgrad2{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: conic-gradient(red, yellow, green, blue, orange);
+}
+
+/* conic gradient - five colors and degrees*/
+.cgrad3{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: conic-gradient(red 45deg, yellow 120deg, green 210deg);
+}
+
+/* conic gradient - create pie charts */
+.cgrad4{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: conic-gradient(red, yellow, green, blue, purple);
+    border-radius: 50%;
+}
+.cgrad44{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg, blue 0deg);
+    border-radius: 50%;
+}
+
+/* conic gradient with specified from angle */
+.cgrad5{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    border-radius: 50%;
+}
+
+/* conic gradient with specified center position */
+.cgrad6{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+    border-radius: 50%;
+}
+
+/* conic gradient - repeating conic gradient */
+.cgrad7{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-conic-gradient( red 10%, yellow 15%);
+    border-radius: 50%;
+}
+.cgrad77{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-conic-gradient( red 0deg 15deg, yellow 15deg 30deg, blue 30deg 45deg);
+    border-radius: 50%;
+}
