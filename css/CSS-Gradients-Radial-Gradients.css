@@ -1,0 +1,117 @@
+body{
+    border: 5px inset #4444;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* radial gradient - evenly spaced color stops */
+.rgrad1{
+    padding: 70px;
+    width: 200px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(red, yellow, green);
+}
+.rgrad11{
+    padding: 70px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(red, yellow, green);
+}
+
+/* radial gradient - differntly spaced color stops */
+.rgrad2{
+    padding: 70px;
+    width: 200px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+.rgrad22{
+    padding: 70px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+/* radial gradient - set shape */
+.rgrad3{
+    padding: 70px;
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(red, yellow, green);
+}
+.rgrad33{
+    padding: 70px;
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+/* radial gradients - different size keyword */
+.rgrad4{
+    padding: 70px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+.rgrad44{
+    padding: 70px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+.rgrad444{
+    padding: 70px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+}
+.rgrad4444{
+    padding: 70px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+
+/* Repeating Radial Gradient */
+.rgrad5{
+    padding: 70px;
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-radial-gradient( red 5%, yellow 10%, green 15%);
+}
+.rgrad55{
+    padding: 70px;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-radial-gradient( red , yellow 10%, green 15%);
+}
