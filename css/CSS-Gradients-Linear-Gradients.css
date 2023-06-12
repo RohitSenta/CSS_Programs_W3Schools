@@ -7,6 +7,7 @@ body{
 /* linear gradient - direction - top to bottom */
 .lgrad1{
     padding: 80px;
+    font-size: 30px;
     text-align: center;
     background-color: red;
     background-image: linear-gradient(red, blue);
@@ -15,6 +16,7 @@ body{
 /* linear gradient - direction - left to right */
 .lgrad2{
     padding: 80px;
+    font-size: 30px;
     text-align: center;
     background-color: blue;
     background-image: linear-gradient(to right, blue, red);
@@ -23,23 +25,110 @@ body{
 /* linear gradient - direction - bottom to top */
 .lgrad3{
     padding: 80px;
+    font-size: 30px;
     text-align: center;
     background-color: rgb(103, 87, 53);
     background-image: linear-gradient(to top, green, white, orange);
 }
 
-/* linear gradient - direction - right to left*/
+/* linear gradient - direction - right to left */
 .lgrad4{
     padding: 80px;
+    font-size: 30px;
     text-align: center;
     background-color: yellow;
     background-image: linear-gradient(to left, green, white, orange);
 }
 
-/* linear gradient - direction - diagonal to bottom left*/
+/* linear gradient - direction - diagonal to bottom left */
 .lgrad5{
     padding: 80px;
+    font-size: 30px;
     text-align: center;
     background-color: yellow;
     background-image: linear-gradient(to bottom right, orange, white, green);
 }
+
+/* linear gradient - direction - using angles */
+.lgrad6{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: yellow;
+    background-image: linear-gradient(120deg, #b34614, #ffffff, #2c2c8b);
+}
+
+/* using multiple color stops */
+.mtlcstop1{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: linear-gradient( #b34614, #ffffff, #2c2c8b);   
+}
+.mtlcstop2{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);   
+}
+.mtlcstop3{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: linear-gradient( #b34614 10%, #2c8b2e 80%, #2c2c8b 90% );   
+}
+.mtlcstop4{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: linear-gradient( to right,red, orange, yellow, green, blue, indigo, violet);   
+}
+
+/* Using Transparency */
+.trans1{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient( to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+/* repeating linear gradient */
+.rpt1{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-linear-gradient( red, yellow 10%, green 20%);   
+}
+.rpt2{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-linear-gradient( 45deg, red, yellow 7%, green 10%);   
+}
+.rpt3{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-linear-gradient( 190deg, red, yellow 7%, green 10%);   
+}
+.rpt4{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-linear-gradient( 90deg ,red, yellow 7%, green 10%);   
+}
+.rpt5{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    background-image: repeating-linear-gradient( 45deg, red 0px, red 10px, red 10px, yellow     px, green 20px);   
+} 
