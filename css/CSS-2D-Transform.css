@@ -1,0 +1,203 @@
+body{
+    border: 5px ridge #3338;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* The translate() Method */
+.translate1{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.translate11{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    margin: 40px;
+    transform: translate(30px, 30px);
+}
+
+/* The rotate() Method */
+/* rotate clockwise */
+.rotate1{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+    margin: 40px;
+}
+.rotate11{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    margin: 40px;
+    transform: rotate(20deg);
+}
+/* rotate counter-clockwise */
+.rotate2{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+    margin: 40px;
+}
+.rotate22{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    margin: 40px;
+    transform: rotate(-20deg);
+}
+
+/* The scale() Method */
+/* Increases size */
+.scale1{
+    margin: 20px 50px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.scale11{
+    margin: 150px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: scale(2, 3);
+}
+/* Decreases size */
+.scale2{
+    margin: 20px 50px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.scale22{
+    margin: 20px 50px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: scale(0.5, 0.5);
+}
+
+/* The scaleX() Method */
+/* Increases size */
+.scaleX1{
+    margin: 30px 170px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.scaleX11{
+    margin: 30px 170px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: scaleX(2);
+}
+/* Decreases size */
+.scaleX2{
+    margin: 30px 170px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.scaleX22{
+    margin: 30px 170px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: scaleX(0.5);
+}
+
+/* The scaleY() Method */
+/* Increases size */
+.scaleY1{
+    margin: 100px ;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.scaleY11{
+    margin: 100px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: scaleY(2);
+}
+/* Decreases size */
+.scaleY2{
+    margin: 50px 100px ;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.scaleY22{
+    margin: 50px 100px ;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: scaleY(0.5);
+}
+
+/* The SkewX() Method */
+.skewX1{
+    padding: 10px;
+    margin: 20px 40px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffe8af;
+    border: 2px solid #2228;
+}
+.skewX11{
+    padding: 10px;
+    margin: 20px 40px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: skewX(20deg);
+}
+.skewX111{
+    padding: 10px;
+    margin: 20px 40px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: skewX(-20deg);
+}
