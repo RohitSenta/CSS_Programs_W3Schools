@@ -1,0 +1,89 @@
+body{
+    border: 5px outset #6666;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* The rotateX() Method */
+.rotateX1{
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffe8af;;
+    border: 2px solid #2228;
+}
+.rotateX11{
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: rotateX(150deg);
+}
+
+/* The rotateY() Method */
+.rotateY1{
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffe8af;;
+    border: 2px solid #2228;
+}
+.rotateY11{
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: rotateY(150deg);
+}
+
+/* The rotateZ() Method */
+.rotateZ1{
+    padding: 10px;
+    margin: 50px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffe8af;;
+    border: 2px solid #2228;
+}
+.rotateZ2{
+    padding: 10px;
+    margin: 60px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: rotateZ(45deg);
+}
+.rotateZ3{
+    padding: 10px;
+    margin: 60px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: rotateZ(90deg);
+}
+.rotateZ4{
+    padding: 10px;
+    margin: 60px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: rotateZ(140deg);
+}
+.rotateZ5{
+    padding: 10px;
+    margin: 60px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffbf47;
+    border: 2px solid #2228;
+    transform: rotateZ(180deg);
+}
