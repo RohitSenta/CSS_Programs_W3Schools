@@ -1,0 +1,370 @@
+body{
+    border: 5px outset #555;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* simple animation*/
+.ani1{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+    animation-name: animation1;
+    animation-duration: 4s;
+}
+@keyframes animation1{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: green;
+    }
+}
+
+/* simple animation with 4 colors*/
+.ani2{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+    animation-name: animation2;
+    animation-duration: 4s;
+}
+@keyframes animation2{
+    0% {background-color: red;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    75%{background-color: blue;}
+    100%{background-color: red;}
+}
+
+/* simple animation with 4 directions */
+.ani3{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation3;
+    animation-duration: 4s;
+}
+@keyframes animation3{
+    0% {background-color: red; left: 0px; top: 0px}
+    25%{background-color: yellow; left: 200px; top: 0px}
+    50%{background-color: green; left: 200px; top: 200px}
+    75%{background-color: blue; left: 0px; top: 200px}
+    100%{background-color: red; left: 0px; top: 0px}
+}
+
+/* delay an animation */
+.ani4{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation4;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes animation4{
+    0% {background-color: red; left: 0px; top: 0px}
+    25%{background-color: yellow; left: 200px; top: 0px}
+    50%{background-color: green; left: 200px; top: 200px}
+    75%{background-color: blue; left: 0px; top: 200px}
+    100%{background-color: red; left: 0px; top: 0px}
+}
+.ani44{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation44;
+    animation-duration: 4s;
+    animation-delay: -1s;
+}
+@keyframes animation44{
+    0% {background-color: red; left: 0px; top: 0px}
+    25%{background-color: yellow; left: 200px; top: 0px}
+    50%{background-color: green; left: 200px; top: 200px}
+    75%{background-color: blue; left: 0px; top: 200px}
+    100%{background-color: red; left: 0px; top: 0px}
+}
+
+/* How Many Times Animation Should Run */
+.ani5{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation5;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+@keyframes animation5{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}   
+
+/* for infinite times animation run */
+.ani6{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation6{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}   
+
+/* run animation in reverse. alterate and alternate-reverse direction*/
+.ani7{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation7;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: reverse;
+}
+@keyframes animation7{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}   
+.ani77{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation77;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+}
+@keyframes animation77{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}   
+.ani777{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    position: relative;
+    background-color: red;
+    animation-name: animation777;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate-reverse;
+}
+@keyframes animation777{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}   
+
+/* specify the speed curve of the animation */
+.div1{
+    width: 100px;
+    height: 75px;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;  
+    position: relative;
+    animation: move1 4s infinite;
+    animation-timing-function: linear;
+}
+.div2{
+    width: 100px;
+    height: 75px;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;  
+    position: relative;
+    animation: move1 4s infinite;
+    animation-timing-function: ease;
+}
+.div3{
+    width: 100px;
+    height: 75px;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;  
+    position: relative;
+    animation: move1 4s infinite;
+    animation-timing-function: ease-in;
+}
+.div4{
+    width: 100px;
+    height: 75px;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;  
+    position: relative;
+    animation: move1 4s infinite;
+    animation-timing-function: ease-out;
+}
+.div5{
+    width: 100px;
+    height: 75px;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;  
+    position: relative;
+    animation: move1 4s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes move1{
+    from{
+        background-color: red;
+        left: 0px;
+    }
+    to{
+        background-color: blue;
+        left: 300px;
+        color: white;
+        border-radius: 50%;
+    }
+}
+
+/* specify the fill-mode for an animation */
+/* forwords */
+.ani8{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: animation8;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+}
+@keyframes animation8{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 200px;
+        background-color: blue;
+    }
+}
+/* backwords */
+.ani88{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: animation88;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: backwards;
+}
+@keyframes animation88{
+    from{
+        left: 0px;
+        background-color: yellow;
+    }
+    to{
+        left: 200px;
+    }
+}
+/* both */
+.ani888{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: animation888;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: both;
+}
+@keyframes animation888{
+    from{
+        left: 0px;
+        background-color: yellow;
+    }
+    to{
+        left: 200px;
+        background-color: blue;
+    }
+}
+
+/* animation shorthand property */
+/* without shorthand property */
+.ani9{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    background-color: red;
+    position: relative;
+    animation-name: animation9;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animation9{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}   
+/* with shorthand property */
+.ani99{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 230px;
+    background-color: red;
+    position: relative;
+    animation: animation99 4s linear 2s infinite alternate;
+}
+@keyframes animation99{
+    0%{background-color: red; left: 0px; top: 0px;}
+    25%{background-color: yellow; left: 200px; top: 0px;}
+    50%{background-color: green; left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top: 200px;}
+    100%{background-color: red; left: 0px; top: 0px;}
+}   
