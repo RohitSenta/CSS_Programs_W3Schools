@@ -1,0 +1,433 @@
+body{
+    border: 5px groove #4445;
+    margin: 20px;
+    padding: 30px;
+}
+
+
+/* Basic Tooltip */
+.tt1{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.tt1 .ttext{
+    visibility: hidden;
+    width: 120px;
+    font-size: large;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+.tt1:hover .ttext{
+    visibility: visible;
+}
+
+
+/* Positioning Tooltip */
+/* Left Tooltip*/
+.ttl{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.ttl .ltext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+.ttl:hover .ltext{
+    visibility: visible;
+}
+/* Right Tooltip*/
+.ttr{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.ttr .rtext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+.ttr:hover .rtext{
+    visibility: visible;
+}
+/* Top Tooltip*/
+.tttop{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.tttop .toptext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.tttop:hover .toptext{
+    visibility: visible;
+}
+/* Bottom Tooltip*/
+.ttb{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.ttb .btext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.ttb:hover .btext{
+    visibility: visible;
+}
+
+
+/* Arrow Tooltip */
+/* Right Arrow */
+.larrow{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.larrow .latext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+.larrow .latext::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent orange transparent transparent;
+}
+.larrow:hover .latext{
+    visibility: visible;
+}
+/* Left Arrow */
+.rarrow{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.rarrow .ratext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+}
+.rarrow .ratext::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent orange;
+}
+.rarrow:hover .ratext{
+    visibility: visible;
+}
+/* Bottom Arrow */
+.tarrow{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.tarrow .tatext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -85px;
+}
+.tarrow .tatext::after{
+    content: "";
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange transparent transparent transparent;
+}
+.tarrow:hover .tatext{
+    visibility: visible;
+}
+/* Top Arrow */
+.barrow{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.barrow .batext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: orange;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -85%;
+}
+.barrow .batext::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent orange transparent;
+}
+.barrow:hover .batext{
+    visibility: visible;
+}
+
+
+/* Fade In Tooltip On Hover */
+/* Left Tooltip Fade */
+.lfade{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.lfade .lftext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.lfade .lftext::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent green transparent transparent;
+}
+.lfade:hover .lftext{
+    visibility: visible;
+    opacity: 1;
+}
+/* Right Tooltip Fade */
+.rfade{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.rfade .rftext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.rfade .rftext::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent green;
+}
+.rfade:hover .rftext{
+    visibility: visible;
+    opacity: 1;
+}
+/* Top Tooltip Fade */
+.tfade{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.tfade .tftext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -85px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tfade .tftext::after{
+    content: "";
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green transparent transparent transparent;
+}
+.tfade:hover .tftext{
+    visibility: visible;
+    opacity: 1;
+}
+/* Bottom Tooltip Fade */
+.bfade{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+    margin-left: 200px;
+}
+.bfade .bftext{
+    visibility: hidden;
+    width: 150px;
+    font-size: large;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -85px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.bfade .bftext::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent green transparent;
+}
+.bfade:hover .bftext{
+    visibility: visible;
+    opacity: 1;
+}
