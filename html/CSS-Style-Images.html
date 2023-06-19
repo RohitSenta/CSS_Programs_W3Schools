@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS - Style Images</title>
+        <link rel="shortcut icon" href="../images/css3_logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="../css/CSS-Style-Images.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS - Style Images</h1>
+        </header> 
+        <hr><hr>
+        
+        <main>
+            <section>
+                <h2>Rounded Images</h2>
+
+                <img id="img1" src="../images/img_city2.jpeg" alt="Nightcity" width="300">
+                <img id="img11" src="../images/img_city2.jpeg" alt="Nightcity" width="300">
+            </section>
+            <hr>
+
+            <section>
+                <h2>Thumbnail Image</h2>
+
+                <img id="img2" src="../images/backgrd1.jpg" alt="background">
+                <a href="../images/backgrd1.jpg">
+                    <img id="img22" src="../images/backgrd1.jpg" alt="background">
+                </a>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Responsive Image</h2>
+
+                <img id="img3" src="../images/img_5terre_wide.jpeg" alt="mountains" width="1000">
+            </section>
+            <br><hr>
+
+            <section>
+                <h2>Center An Image</h2>
+
+                <img id="img4" src="../images/img_mountains.jpg" alt="mountains">
+            </section>
+            <br><hr>
+
+            <section>
+                <h2>Responsive Polaroid Image</h2>
+
+                <div id="polaroid">
+                    <img id="img5" src="../images/img_forest.jpg" alt="forest" style="width:100%">
+                    <div class="container">
+                        <p>The Forest</p>
+                    </div>
+                </div>  
+                <br>
+                <div id="polaroid">
+                    <img id="img5" src="../images/green_lights.jpeg" alt="greenlight" style="width:100%">
+                    <div class="container">
+                        <p>The Green Lights</p>
+                    </div>
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h2>Transparency/Opacity Of Images</h2>
+
+                <div id="trans">
+                    <img id="img6" src="../images/backgrd.jpg" alt="background" width="450">
+                    <img id="img66" src="../images/backgrd.jpg" alt="background" width="450">
+                    <img id="img666" src="../images/backgrd.jpg" alt="background" width="450">
+                </div>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Image Hover Overlay</h2>
+
+                <div class="container">
+                    <img class="image1" src="../images/img_avatar.png" alt="person">
+                    <div class="overlay1">
+                        <div class="text1">Hello World!</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="image2" src="../images/img_avatar.png" alt="person">
+                    <div class="overlay2">
+                        <div class="text2">ROHIT SENTA</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="image3" src="../images/img_avatar.png" alt="person">
+                    <div class="overlay3">
+                        <div class="text3">Hello World!</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="image4" src="../images/img_avatar.png" alt="person">
+                    <div class="overlay4">
+                        <div class="text4">Hello World!</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="image5" src="../images/img_avatar.png" alt="person">
+                    <div class="overlay5">
+                        <div class="text5">Hello World!</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="image6" src="../images/img_avatar.png" alt="person">
+                    <div class="overlay6">
+                        <div class="text6">Hello World!</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Image Filters</h2>
+
+                <div id="imgfltr">
+                    <img src="../images/img_city2.jpeg" alt="city" width="300">
+                    <img class="blue" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="brightnees" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="contrast" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="grayscale" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="huerotate" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="invert" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="opacity" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="saturate" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="sepia" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img class="shadow" src="../images/img_city2.jpeg" alt="city" width="300" height="200px">
+                    <img src="../images/img_city2.jpeg" alt="city" width="300">
+                </div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h2>Responsive Image Gallery</h2>
+
+                <div id="responsive">
+                    <div id="gallery">
+                        <a href="../images/img_5terre.jpg" target="_blank">
+                            <img src="../images/img_5terre.jpg" alt="sea" width="600" height="400">
+                        </a>
+                        <div id="desc">The Sea</div>
+                    </div>
+                </div>
+                <div id="responsive">
+                    <div id="gallery">
+                        <a href="../images/img_forest.jpg" target="_blank">
+                            <img src="../images/img_forest.jpg" alt="forest" width="600" height="400">
+                        </a>
+                        <div id="desc">The Forest</div>
+                    </div>
+                </div>
+                <div id="responsive">
+                    <div id="gallery">
+                        <a href="../images/img_mountains.jpg" target="_blank">
+                            <img src="../images/img_mountains.jpg" alt="mountains" width="600" height="400">
+                        </a>
+                        <div id="desc">The Mountains</div>
+                    </div>
+                </div>
+                <div id="responsive">
+                    <div id="gallery">
+                        <a href="../images/green_lights.jpeg" target="_blank">
+                            <img src="../images/green_lights.jpeg" alt="greensky" width="600" height="400">
+                        </a>
+                        <div id="desc">The Green Sky</div>
+                    </div>
+                </div>
+
+                <div id="clearfix"></div>
+            </section>
+            <br><hr>
+
+            <section>
+                <h2>Image Modal (Advanced)</h2>
+
+
+                <div>
+                    <img id="myImg" src="../images/img_city2.jpeg" alt="The City With Night Lights" width="300">
+                </div>
+
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+                <script>
+                    // get image modal
+                    var modal = document.getElementById('myModal');
+
+                    // get image and insert it inside the modal - use its "alt" text as caption
+                    var img = document.getElementById('myImg');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function(){
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                    
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function(){
+                        modal.style.display = "none";
+                    }
+                </script>
+
+            </section>
+            <br>
+
+        </main>
+        <hr><hr>
+
+        <footer>
+            <h2>CSS - Style Images Completed</h2>
+        </footer>
+        <hr><hr>
+
+    </body>
+</html>
