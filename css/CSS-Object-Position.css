@@ -1,0 +1,23 @@
+body{
+    border: 5px ridge #6666;
+    margin: 20px;
+    padding: 30px;
+}
+
+.img2{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.img3{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+.img4{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 15% 100%;
+}
