@@ -1,0 +1,74 @@
+body{
+    border: 5px inset #4448     ;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* reflection left of image */
+.img1{
+    width: 150px;
+    margin-left: 220px;
+    -webkit-box-reflect: left;
+}
+/* reflection right of image */
+.img2{
+    width: 150px;
+    margin-left: 220px;
+    -webkit-box-reflect: right;
+}
+/* reflection top of image */
+.img3{
+    width: 150px;
+    margin-top: 170px;
+    margin-left: 200px;
+    -webkit-box-reflect: above;
+}
+/* reflection bottom of image */
+.img4{
+    width: 150px;
+    margin-bottom: 170px;
+    margin-left: 200px;
+    -webkit-box-reflect: below;
+}
+
+/* reflection of image with offset*/
+.img5{
+    width: 150px;
+    margin: 20px 50px;
+    margin-right: 250px;
+    -webkit-box-reflect: right 50px;
+}
+.img6{
+    width: 150px;
+    margin: 20px 50px;
+    margin-bottom: 230px;
+    -webkit-box-reflect: below 50px;
+}
+
+/* reflectopn with gradients */
+/* right and left */
+.img7{
+    width: 150px;
+    margin: 20px 50px;
+    margin-right: 220px;
+    -webkit-box-reflect: right 0px linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.8));
+}
+.img77{
+    width: 150px;
+    margin: 20px 50px;
+    margin-left: 220px;
+    -webkit-box-reflect: left 0px linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+/* above and below */
+.img8{
+    width: 150px;
+    margin: 50px;
+    margin-top: 200px;
+    -webkit-box-reflect: above 0px linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.img88{
+    width: 150px;
+    margin: 50px;
+    margin-bottom: 200px;
+    -webkit-box-reflect: below 0px linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.8));
+}
