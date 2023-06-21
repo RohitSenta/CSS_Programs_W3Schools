@@ -1,0 +1,47 @@
+body{
+    border: 5px groove #5555;
+    margin: 20px;
+    padding: 30px;
+}
+/* Image Mask */
+.mask1{
+    -webkit-mask-image: url(../images/w3logo.png);
+    mask-image: url(../images/w3logo.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+/* Image Mask Repeat */
+.mask2{
+    -webkit-mask-image: url(../images/w3logo.png);
+    mask-image: url(../images/w3logo.png);
+}
+/* Gradient as a Mask Layer */
+.mask3{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+/* text as a mask layer */
+.p1{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+.mask33{
+    height: 400px;
+    max-width: 600px;
+    overflow-y: scroll;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+    background: url(../images/img_city2.jpeg) no-repeat center center;
+}
+
+/* Radial Gradient */
+.mask4{
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}
+/* Ellipse Shape Gradient */
+.mask44{
+    -webkit-mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}
