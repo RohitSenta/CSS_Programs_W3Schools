@@ -361,3 +361,255 @@ body{
     background-color: #f44336;
     width: 100%;
 }
+
+/* Button Groups */
+.grpbtn1 .btn11{
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+}
+.button11a{
+    background-color: #4caf50;
+}
+.button11b{
+    background-color: #008cba;
+}
+.button11c{
+    background-color: #f44336;
+}
+.button11d{
+    background-color: #800080;
+}
+.button11e{
+    background-color: #555555;
+}
+.grpbtn1 .btn11:hover{
+    background-color: #ffaa00;
+}
+
+/* Button Groups */
+.grpbtn2 .btn12{
+    border: 1px solid black;
+    color: white;
+    padding: 15px 30px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+}
+.grpbtn2 .btn12:not(:last-child){
+    border-right: none;
+}
+.button12a{
+    background-color: #4caf50;
+}
+.button12b{
+    background-color: #008cba;
+}
+.button12c{
+    background-color: #f44336;
+}
+.button12d{
+    background-color: #800080;
+}
+.button12e{
+    background-color: #555555;
+}
+.grpbtn2 .btn12:hover{
+    background-color: #ffaa00;
+}
+
+/* Vartical Button Groups */
+.grpbtn3 .btn13{
+    border: 1px solid black;
+    color: white;
+    padding: 15px 30px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+   
+}
+.grpbtn3 .btn13:not(:last-child){
+    border-bottom: none;
+}
+.button13a{
+    background-color: #4caf50;
+}
+.button13b{
+    background-color: #008cba;
+}
+.button13c{
+    background-color: #f44336;
+}
+.button13d{
+    background-color: #800080;
+}
+.button13e{
+    background-color: #555555;
+}
+.grpbtn3 .btn13:hover{
+    background-color: #ffaa00;
+}
+
+/* Butto On Image */
+.container1{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.container1 img{
+    width: 100%;
+    height: auto;
+}
+.container1 .btn14{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4caf50;
+    color: black;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container1 .btn14:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+/* Animated Buttons */
+.btn15{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn15 span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn15 span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn15:hover span{
+    padding-right: 25px;
+}
+.btn15:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+/* Animated Button - Pressed Effect */
+.btn16{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 30px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.btn16:hover{
+    background-color: #3e8e41;
+}
+.btn16:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Animated Button - Fade in Effect */
+.btn17{
+    background-color: #008cba;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    opacity: 0.5;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn17:hover{
+    opacity: 1.0;
+}
+
+/* Animated Button - Ripple Effect */
+.btn18{
+    position: relative;
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn18:after{
+    content: "";
+    background-color: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1s;
+}
+.btn18:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
