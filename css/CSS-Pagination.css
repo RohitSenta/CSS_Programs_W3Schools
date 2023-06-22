@@ -1,0 +1,151 @@
+body{
+    border: 5px inset #5555;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Simple Pagination */
+.pagi1{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi1 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Active And Hoverable Pagination */
+.pagi2{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi2 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.pagi2 a.active2{
+    background-color: #4caf50;
+    color: white;
+}
+.pagi2 a:hover:not(.active2){
+    background-color: #ddd;
+}
+
+/* Rounded Active And Hoverable Pagination */
+.pagi3{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi3 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.pagi3 a.active3{
+    background-color: #4caf50;
+    color: white;
+}
+.pagi3 a:hover:not(.active3){
+    background-color: #ddd;
+}
+
+/* Transition On Hover Pagination */
+.pagi4{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi4 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 1s ease;
+}
+.pagi4 a.active4{
+    background-color: #4caf50;
+    color: white;
+}
+.pagi4 a:hover:not(.active4){
+    background-color: #ddd;
+}
+
+/* Pagination With Borders */
+.pagi5{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi5 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid #ccc;
+}
+.pagi5 a.active5{
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+}
+.pagi5 a:hover:not(.active5){
+    background-color: #ccc;
+}
+
+/* Pagination With Rounded Borders */
+.pagi6{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi6 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid #ccc;
+}
+.pagi6 a.active6{
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+}
+.pagi6 a:hover:not(.active6){
+    background-color: #ccc;
+}
+.pagi6 a:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pagi6 a:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Pagination With Space Between Links */
+.pagi7{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi7 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid #ccc;
+}
+.pagi7 a.active7{
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+}
+.pagi7 a:hover:not(.active7){
+    background-color: #ccc;
+}
