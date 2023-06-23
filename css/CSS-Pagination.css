@@ -149,3 +149,109 @@ body{
 .pagi7 a:hover:not(.active7){
     background-color: #ccc;
 }
+
+/* Pagination Size */
+.pagi8{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi8 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid #ccc;
+    font-size: 30px;
+}
+.pagi8 a.active8{
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+}
+.pagi8 a:hover:not(.active8){
+    background-color: #ccc;
+}
+
+/* Pagination Centered */
+.center{
+    text-align: center;
+}
+.pagi9{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi9 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid #ccc;
+}
+.pagi9 a.active9{
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+}
+.pagi9 a:hover:not(.active9){
+    background-color: #ccc;
+}
+
+/* Pagination Next/Previous Button */
+.pagi10{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi10 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid #ccc;
+}
+.pagi10 a:hover{
+    background-color: #ccc;
+}
+
+/* Navigatin Pagination */
+.pagi11{
+    display: inline-block;
+    margin: 20px;
+}
+.pagi11 a{
+    color: black;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    border: 1px solid #ccc;
+}
+.pagi11 a.active11{
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+}
+.pagi11 a:hover:not(.active11){
+    background-color: #ccc;
+}
+
+/* Breadcrumb Pagination */
+ul.pagi12{
+    padding: 10px 20px;
+    list-style-type: none;
+    background-color: #ddd;
+}
+ul.pagi12 li{
+    display: inline;
+}
+ul.pagi12 li+li:before {
+    padding: 10px;
+    color: black;
+    content: "/\00a0";
+}
+ul.pagi12 li a{
+    color: #f1852d;
+    text-decoration: none;
+}
