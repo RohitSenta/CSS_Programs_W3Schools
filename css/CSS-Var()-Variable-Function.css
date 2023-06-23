@@ -1,0 +1,82 @@
+body{
+    border: 5px inset #4444;
+    margin: 20px;
+    padding: 30px;
+}
+
+:root{
+    --blue: #2267a0;
+    --white: #FFFFFF;
+}
+
+/* The Traditional Way */
+#section1{
+    padding: 20px;
+    background-color: #526D82;
+    color: white;
+}
+#head1{
+    color: #526D82;
+}
+.container1{
+    color: #526D82;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.btn1{
+    background-color: white;
+    color: #526D82;
+    border: 1px solid #526D82;
+    padding: 10px 20px;
+}
+
+/* Using The Var()(Variable) Function */
+#section2{
+    padding: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+#head2{
+    color: var(--blue);
+}
+.container2{
+    color: var(--blue);
+    margin: 20px;
+    background-color: var(--white);
+    padding: 20px;
+}
+.btn2{
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 10px 20px;
+}
+
+/* Override Globle Variable With Local Variable */
+#section3{
+    --blue: #318cb6;
+    padding: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+#head3{
+    --blue: #ff6d3c;
+    color: var(--blue);
+}
+.container3{
+    --blue: #128a52;
+    --white: #dcedff;
+    color: var(--blue);
+    margin: 20px;
+    background-color: var(--white);
+    padding: 20px;
+}
+.btn3{
+    --blue: #ffffff;
+    --newPurple: #800080;
+    background-color: var(--newPurple);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 10px 20px;
+}
