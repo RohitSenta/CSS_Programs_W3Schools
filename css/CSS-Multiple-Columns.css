@@ -1,0 +1,47 @@
+body{
+    border: 5px outset #4444;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* Create Multiple Columns */
+.columns1{
+    column-count: 3;
+}
+
+/* Specify Gap Between Columns */
+.columns2{
+    column-count: 4;
+    column-gap: 100px;
+}
+
+/* Column Rules */
+.columns3{
+    column-count: 4;
+    column-gap: 60px;
+    column-rule-style: solid;
+    column-rule-width: 5px;
+    column-rule-color: #1886e0;
+}
+.columns33{
+    column-count: 3;
+    column-gap: 60px;
+    column-rule: dashed 5px red;
+}
+
+/* Specify How Many Columns An Element Should Span */
+.columns4{
+    column-count: 4;
+    column-gap: 60px;
+    column-rule: dotted 5px #950db7;
+}
+.h2{
+    column-span: all;
+}
+
+/* Specify The Column Width */
+.columns5{
+    column-width: 300px;
+    column-gap: 60px;
+    column-rule: double 5px #fdba00;
+}
