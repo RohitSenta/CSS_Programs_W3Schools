@@ -1,0 +1,43 @@
+body{
+    border: 5px inset #5555;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Without CSS Box-Sizing Property */
+.div1{
+    width: 300px;
+    height: 100px;
+    border: 2px solid #2949b1;
+}
+.div2{
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 5px solid #ff0000;
+}
+
+/* With CSS Box-Sizing Property */
+.div3{
+    width: 300px;
+    height: 120px;
+    border: 2px solid #2949b1;
+    box-sizing: border-box;
+}
+.div4{
+    width: 300px;
+    height: 120px;
+    padding: 50px;
+    border: 5px solid #ff0000;
+    box-sizing: border-box;
+}
+
+/* Simple Form With Box-Sizing - Border-Box Property */
+.form{
+    margin: 0px;
+    box-sizing: border-box;
+}
+input, textarea{
+    width: 100%;
+}
+
