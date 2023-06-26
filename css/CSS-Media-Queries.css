@@ -1,0 +1,106 @@
+body{
+    border: 5px outset  #3335;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Div Element Change Background-color, Font-size And Height With Media Queries */
+.div1{
+    width: 80%;
+    height: 600px;
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #bde0ff;
+    font-size: 35px;
+}
+@media screen and (max-width: 1500px) {
+    .div1{
+        background-color: #bdffd7;
+        font-size: 30px;
+        height: 550px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .div1{
+        background-color: #fffbbd;
+        font-size: 25px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .div1{
+        background-color: #ffd1bd;
+        font-size: 20px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .div1{
+        background-color: #efcaff;
+        font-size: 17px;
+        height: 380px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .div1{
+        background-color: #caf4ff;
+        font-size: 15px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .div1{
+        background-color: #43ffbd;
+        font-size: 12px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .div1{
+        background-color: #91ff43;
+        font-size: 10px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .div1{
+        background-color: #ffa443;
+        font-size: 10px;
+        height: 800px;
+    }
+}
+
+/* Manu Size Change With Media Queries */
+.div2{
+    overflow: auto;
+    border: 2px solid #000;
+}
+#main{
+    margin: 30px;
+}
+#manulist{
+    margin: 0;
+    padding: 0;
+}
+.manu1{
+    background-color: #bde0ff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 20px 40px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 600px) {
+    #list{
+        width: 250px;
+        float: left;
+    }
+    .manu1{
+        background-color: #ffdac1;
+    }
+    #main{
+        margin-left: 270;
+    }
+}
