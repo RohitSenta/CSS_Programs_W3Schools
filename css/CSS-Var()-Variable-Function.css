@@ -7,6 +7,17 @@ body{
 :root{
     --blue: #2267a0;
     --white: #FFFFFF;
+    --brown: #822121;
+    --liteyellow: #fffae4;
+
+    --green: #5c087b;
+    --litegreen: #f8edff;
+}
+.container5, .btn5{
+    --fontsize: 70px;
+}
+#head5, .btn5{
+    --bordersize: 7px;
 }
 
 /* The Traditional Way */
@@ -17,6 +28,7 @@ body{
 }
 #head1{
     color: #526D82;
+    border-bottom: 2px solid #526D82;
 }
 .container1{
     color: #526D82;
@@ -39,6 +51,7 @@ body{
 }
 #head2{
     color: var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
 .container2{
     color: var(--blue);
@@ -63,6 +76,7 @@ body{
 #head3{
     --blue: #ff6d3c;
     color: var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
 .container3{
     --blue: #128a52;
@@ -79,4 +93,131 @@ body{
     color: var(--blue);
     border: 1px solid var(--blue);
     padding: 10px 20px;
+}
+
+/* Change Globle Variable With JavaScript */
+#section4{
+    padding: 20px;
+    background-color: var(--brown);
+    color: var(--liteyellow);
+}
+#head4{
+    color: var(--brown);
+    border-bottom: 2px solid var(--brown);
+}
+.container4{
+    color: var(--brown);
+    margin: 20px;
+    background-color: var(--liteyellow);
+    padding: 20px;
+}
+.btn4{
+    background-color: var(--liteyellow);
+    color: var(--brown);
+    border: 1px solid var(--brown);
+    padding: 10px 20px;
+}
+.btn44{
+    background-color: var(--liteyellow);
+    color: var(--brown);
+    border: 1px solid var(--brown);
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+/* Using Variables In Media Queries */
+#section5{
+    padding: 20px;
+    background-color: var(--green);
+    color: var(--litegreen);
+}
+#head5{
+    color: var(--green);
+    border-bottom: var(--bordersize) solid var(--green);
+}
+.container5{
+    color: var(--green);
+    margin: 20px;
+    background-color: var(--litegreen);
+    padding: 20px;
+    font-size: var(--fontsize);
+}
+.btn5{
+    background-color: var(--litegreen);
+    color: var(--green);
+    border: var(--bordersize) solid var(--green);
+    font-size: var(--fontsize);
+    padding: 10px 20px;
+}
+@media screen and (max-width: 1600px) {
+    .container5, .btn5{
+        --fontsize: 60px;
+    }
+    :root{
+        --green: #3b4ea0;
+        --litegreen: #dde6ff;
+    }
+    #head5, .btn5{
+        --bordersize: 6px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .container5, .btn5{
+        --fontsize: 50px;
+    }
+    :root{
+        --green: #6684b1;
+        --litegreen: #e7efff;
+    }
+    #head5, .btn5{
+        --bordersize: 5px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container5, .btn5{
+        --fontsize: 40px;
+    }
+    :root{
+        --green: #953c1f;
+        --litegreen: #ffe9e9;
+    }
+    #head5, .btn5{
+        --bordersize: 4px;
+    } 
+}
+@media screen and (max-width: 1000px) {
+    .container5, .btn5{
+        --fontsize: 30px;
+    }
+    :root{
+        --green: #ffaf4e;
+        --litegreen: #ffeede;
+    }
+    #head5, .btn5{
+        --bordersize: 3px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container5, .btn5{
+        --fontsize: 20px;
+    }
+    :root{
+        --green: #248313;
+        --litegreen: #edffdf;
+    }
+    #head5, .btn5{
+        --bordersize: 2px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container5, .btn5{
+        --fontsize: 16px;
+    }
+    :root{
+        --green: #9f9920;
+        --litegreen: #f4f9d5;
+    }
+    #head5, .btn5{
+        --bordersize: 1px;
+    }
 }

@@ -6,9 +6,16 @@
         <title>CSS - Var() (Variable) Function</title>
         <link rel="shortcut icon" href="../images/css3_logo.jpg" type="image/x-icon">
         <link rel="stylesheet" href="../css/CSS-Var()-Variable-Function.css">
-        <style>
-            
-        </style>
+        <script>
+            var r = document.querySelector(':root');
+            function myFunction_get(){
+                var rs = getComputedStyle(r);
+                alert("The value of --brown is: " + rs.getPropertyValue('--brown'));
+            }
+            function myFunction_set(){
+                r.style.setProperty('--brown', 'purple');
+            }
+        </script>
     </head>
 
     <body>
@@ -51,6 +58,8 @@
                         
                     </p>
                 </div>
+
+
                 <br><br>
                 <br><br>
             </section>
@@ -78,6 +87,52 @@
             <br><br>
             <hr><hr>
             <br><br>
+
+            <section id="section4">
+                <h1>Change Globle Variable With JavaScript</h1>
+
+                <div class="container4">
+                    <h2 id="head4">Hello World!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+                    <p>
+                        <button class="btn4">Yes</button>
+                        <button class="btn4">No</button>
+                    </p>
+                </div>
+                <button class="btn44" type="button" onclick="myFunction_get()">Get The CSS Variable With JavaScript</button>
+                <button class="btn44"; type="button" onclick="myFunction_set()">Change CSS Variable With JavaScript</button>
+                <br><br>
+                <br><br>
+            </section>
+            <br><br>
+            <hr><hr>
+            <br><br>
+
+            <section id="section5">
+                <h1>Change Globle Variable With JavaScript</h1>
+
+                <div class="container5">
+                    <h2 id="head5">Hello World!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+                    <p>
+                        <button class="btn5">Yes</button>
+                        <button class="btn5">No</button>
+                    </p>
+                </div>
+                <br><br>
+                <br><br>
+            </section>
+            <br><br>
         </main>
+        <br><br>
+        <hr><hr>
+
+        <footer>
+            <h2>CSS - Var()-Variable - Function Completed</h2>
+        </footer>
+        <hr><hr>
+        <br><br>
     </body>
 </html>
