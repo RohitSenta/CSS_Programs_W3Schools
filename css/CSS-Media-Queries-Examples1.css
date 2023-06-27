@@ -1,0 +1,128 @@
+body{
+    border: 5px inset #5557;
+    padding: 30px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+*{
+    box-sizing: border-box;
+}
+
+/* Style Heading And Top Nav Bar */
+#headDiv{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: #304460;
+    color: white;
+}
+#topnav{
+    overflow: hidden;
+    background-color: #9DB2BF;
+}
+#topnav a{
+    float: left;
+    display: block;
+    color: #2a2a2a;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#topnav #active{
+    background-color: #526D82;
+    color: white;
+}
+#topnav a:hover:not(#active){
+    background-color: #7e939e;
+    color: #e4f3ff;
+}
+@media screen and (max-width: 600px) {
+    #topnav a{
+        float: none;
+        width: 100%;
+        text-align: start;
+    }
+    #headDiv{
+        font-size: 25px;
+    }
+}
+
+/* Responsive Column-Box Styling */
+#section2 > div{
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+#colDiv{
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+#colDiv .c1{
+    background-color: #40618b;
+}
+#colDiv .c2{
+    background-color: #597aa9;
+}
+#colDiv .c3{
+    background-color: #8aa7cf;
+}
+#colDiv .c4{
+    background-color: #cfe3ff;
+}
+
+#colDiv::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 1000px) {
+    .column{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+    }
+}
+
+/* Respansive Image Grid  */
+h2{
+    text-align: center;
+}
+#imagegrid{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: 2px inset #5555;
+}
+img{
+    width: 100%;
+}
+.images{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+@media screen and (max-width: 900px) {
+    .images{
+        flex: 50%;
+        max-width: 50%;
+    } 
+}
+@media screen and (max-width: 600px) {
+    .images{
+        flex: 100%;
+        max-width: 100%;
+    } 
+}
