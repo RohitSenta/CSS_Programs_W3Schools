@@ -912,3 +912,33 @@ h1, h2, h3{
     font-size: 30px;
     font-weight: bold;
 }
+
+/* Responsive Flex-Box */
+.container8{
+    /* height: 400px; */
+    background-color: #713926;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-content: stretch; */
+}
+.container8 div{
+    background-color: #ffe8e8;
+    /* width: 80px; */
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    flex: 25%;
+}
+@media screen and (max-width: 800px) {
+    .container8{
+        flex-direction: column;
+    }
+    .container8 div{
+        align-items: center;
+    }
+}   
