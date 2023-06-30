@@ -1,0 +1,320 @@
+body{
+    border: 5px inset #4444;
+    margin: 20px;
+    padding: 30px;
+}
+h1, h2, h3{
+    text-align: center;
+}
+
+/* Flaxible Items */
+.container1{
+    height: 200px;
+    display: flex;
+    background-color: #000000;
+}
+.container1 div{
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Order Property*/
+/* Direction - Row */
+.container2a{
+    height: 300px;
+    display: flex;
+    background-color: #295f94;
+    flex-direction: row;
+}
+.container2a div{
+    background-color: #d1e7ff;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.item2a{
+    order: 3;
+}
+.item2b{
+    order: 2;
+}
+.item2c{
+    order: 4;
+}
+.item2d{
+    order: 1;
+}
+/* Direction - Column */
+.container2b{
+    display: flex;
+    background-color: #295f94;
+    flex-direction: column;
+}
+.container2b div{
+    background-color: #d1e7ff;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.item2a{
+    order: 3;
+}
+.item2b{
+    order: 2;
+}
+.item2c{
+    order: 4;
+}
+.item2d{
+    order: 1;
+}
+
+/* Flex-Grow - Direction-Row */
+.container3a{
+    height: 300px;
+    display: flex;
+    background-color: #763a20;
+    flex-direction: row;
+    /* align-items: stretch; */
+}
+.container3a div{
+    background-color: #ffd7d1;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.one2{
+    flex-grow: 1;
+}
+.four2{
+    flex-grow: 3;
+}
+/* Flex-Grow - Direction-Column */
+.container3b{
+    height: 700px;
+    display: flex;
+    background-color: #763a20;
+    flex-direction: column;
+    /* align-items: stretch; */
+}
+.container3b div{
+    background-color: #ffd7d1;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.one3{
+    flex-grow: 1;
+}
+.four3{
+    flex-grow: 3;
+}
+
+/* Flex-Shrink - Direction-Row */
+.container4a{
+    height: 300px;
+    display: flex;
+    background-color: #1c6c34;
+    flex-direction: row;
+    /* align-items: stretch; */
+}
+.container4a div{
+    background-color: #d1ffd6;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.two4{
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.three4{
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+/* Flex-Shrink - Direction-Column */
+.container4b{
+    height: 700px;
+    display: flex;
+    background-color: #1c6c34;
+    flex-direction: column;
+    /* align-items: stretch; */
+}
+.container4b div{
+    background-color: #d1ffd6;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.two4{
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.three4{
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+/* Flex-Basis */
+/* Flex-Basis - Direction-Row */
+.container5a{
+    height: 300px;
+    display: flex;
+    background-color: #562994;
+    flex-direction: row;
+    /* flex-basis: 200px; */
+    /* align-items: stretch; */
+}
+.container5a div{
+    background-color: #e3d1ff;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.one5{
+    flex-basis: 300px;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+.three5{
+    flex-basis: 40px;
+    /* flex-grow: 0.5; */
+    flex-shrink: 0.5;
+}
+/* Flex-Basis - Direction-Column */
+.container5b{
+    /* height: 700px; */
+    display: flex;
+    background-color: #562994;
+    flex-direction: column;
+    /* flex-basis: 200px; */
+    /* align-items: stretch; */
+}
+.container5b div{
+    background-color: #e3d1ff;
+    width: 80px;
+    /* height: 40px; */
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.one5{
+    flex-basis: 300px;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+.three5{
+    flex-basis: 100px;
+    /* flex-grow: 0.5; */
+    flex-shrink: 0.5;
+}
+
+/* Flex Property */
+.container6a{
+    height: 300px;
+    display: flex;
+    background-color: #948f29;
+    flex-direction: row;
+    /* flex-basis: 200px; */
+    /* align-items: stretch; */
+}
+.container6a div{
+    background-color: #fffcd1;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.one6{
+    flex: 2 2 300px
+}
+.three6{
+    flex: 1 1 200px
+}
+
+/* Aline-Self Property */
+.container7a{
+    height: 300px;
+    display: flex;
+    background-color: #9d6b20;
+    flex-direction: row;
+    align-items: stretch;
+}
+.container7a div{
+    background-color: #ffeed1;
+    width: 80px;
+    /* height: 80px; */
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.three7a{
+    height: 80px;
+    align-self: center;
+}
+.container7b{
+    height: 300px;
+    display: flex;
+    background-color: #9d6b20;
+    flex-direction: row;
+    align-items: stretch;
+}
+.container7b div{
+    background-color: #ffeed1;
+    width: 80px;
+    /* height: 80px; */
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.two7b{
+    height: 80px;
+    align-self: flex-start;
+}
+.three7b{
+    height: 80px;
+    align-self: flex-end;
+}
