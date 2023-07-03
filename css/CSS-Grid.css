@@ -1,0 +1,134 @@
+body{
+    border: 5px inset #4445;
+    margin: 20px;
+    padding: 30px;
+}
+
+/* Grid - Layout */
+.item1{grid-area: header;}
+.item2{grid-area: menu;}
+.item3{grid-area: main;}
+.item4{grid-area: right;}
+.item5{grid-area: footer;}
+.grid-container1{
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #3273a9;
+    padding: 10px;
+}
+.grid-container1 > div{
+    background-color: #acd6f7;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/* Display - Grid */
+.grid-container2a {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #32a94e;
+    padding: 10px;
+}
+.item2a{
+    background-color: #ceffda;
+    border: 2px solid #0007;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/* Display - Inline-Grid */
+.grid-container2b {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #32a94e;
+    padding: 10px;
+}
+.item2b{
+    background-color: #ceffda;
+    border: 2px solid #0007;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Grid - Gaps Property */
+/* Column-Gap */
+.grid-container3a {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #6432a9;
+    padding: 10px;
+    column-gap: 50px;
+}
+.item3a{
+    background-color: #e1ceff;
+    border: 2px solid #0007;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/* Row-Gap */
+.grid-container3b {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #6432a9;
+    padding: 10px;
+    row-gap: 50px;
+}
+.item3b{
+    background-color: #e1ceff;
+    border: 2px solid #0007;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/* Gap-Row/Column */
+.grid-container3c {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #6432a9;
+    padding: 10px;
+    gap: 50px ;
+}
+.item3c{
+    background-color: #e1ceff;
+    border: 2px solid #0007;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Grid - Lines */
+.grid-container4a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: #a93236;
+    padding: 10px;
+}
+.grid-container4a div{
+    background-color: #ffbfc0;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.item4a1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item4a3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item4a6{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
